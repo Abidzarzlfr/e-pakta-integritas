@@ -11,18 +11,28 @@
                 </p> -->
         </div>
         <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
-            <form class="card-body">
+            <form action="/login" method="POST" class="card-body">
+                @if($errors->any())
+                <div class="alert alert-danger" role="alert">
+                    @foreach ($errors->all() as $item)
+                    <ul>
+                        <li>{{ $item }}</li>
+                    </ul>
+                    @endforeach
+                </div>
+                @endif
+                @csrf
                 <div class="form-control">
                     <label class="label">
                         <span class="label-text">NIK</span>
                     </label>
-                    <input type="email" placeholder="NIK" class="input input-bordered" required />
+                    <input type="nik" name="nik" placeholder="NIK" class="input input-bordered" required />
                 </div>
                 <div class="form-control">
                     <label class="label">
                         <span class="label-text">Password</span>
                     </label>
-                    <input type="password" placeholder="password" class="input input-bordered" required />
+                    <input type="password" name="password" placeholder="password" class="input input-bordered" required />
                     <label class="label">
                         <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
                     </label>
