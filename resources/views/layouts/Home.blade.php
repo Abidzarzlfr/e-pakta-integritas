@@ -41,7 +41,7 @@
                     <details>
                         <summary>NIK</summary>
                         <ul class="bg-base-100 rounded-t-none p-2">
-                            <li><a>Logout</a></li>
+                            <li><a href="logout">Logout</a></li>
                         </ul>
                     </details>
                 </li>
