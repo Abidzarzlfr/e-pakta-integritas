@@ -19,7 +19,7 @@ return new class extends Migration
             $table->enum('role', ['user', 'admin'])->default('user');
             $table->string('password');
             $table->string('unit_kerja');
-            $table->string('kota');
+            $table->string('kota')->nullable();
 
             $table->timestamp('email_verified_at')->nullable();
             $table->rememberToken();
