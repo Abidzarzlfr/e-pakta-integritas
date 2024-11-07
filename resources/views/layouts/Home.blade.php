@@ -1,9 +1,9 @@
 @extends('includes.Main')
 
 @section('home')
-<div class="home bg-base-200">
+<div class="home">
     <!-- Navbar -->
-    <div class="navbar bg-red-400 rounded-xl mt-5 sticky top-0">
+    <div class="navbar bg-red-400 rounded-xl mt-5 sticky top-0 z-40">
         <div class="navbar-start">
             <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -39,7 +39,7 @@
             <ul class="menu menu-horizontal px-1">
                 <li>
                     <details>
-                        <summary>NIK</summary>
+                        <summary>{{ Auth::user()->nik }}</summary>
                         <ul class="bg-base-100 rounded-t-none p-2">
                             <li><a href="logout">Logout</a></li>
                         </ul>
@@ -48,9 +48,8 @@
             </ul>
         </div>
     </div>
-
     <!-- Hero -->
-    <div class="hero bg-base-200 min-h-screen">
+    <div class="hero min-h-screen">
         <div class="hero-content text-center">
             <div class="max-w-md">
                 <h1 class="text-5xl font-bold">E-Pakta On-progress</h1>
@@ -59,6 +58,55 @@
                     quasi. In deleniti eaque aut repudiandae et a id nisi.
                 </p>
                 <button class="btn btn-primary">Get Started</button>
+            </div>
+        </div>
+    </div>
+    <!-- Generate PDF -->
+    <div class="hero min-h-screen">
+        <div class="hero-content flex-col lg:flex-row-reverse">
+            <div class="text-center lg:text-left">
+                <h1 class="text-5xl font-bold">Generate Elektronik Pakta Integritas</h1>
+                <p class="py-6">
+                    Isi form kosong disamping.
+                </p>
+            </div>
+            <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                <!-- Form Generate Pakta PDF -->
+                <form class="card-body z-0">
+                    <div class="form-control">
+                        <label class="label">
+                            <span class="label-text">Nama Lengkap</span>
+                        </label>
+                        <input type="nama_lengkap" placeholder="{{ Auth::user()->name }}" class="input input-bordered" required disabled />
+                    </div>
+                    <div class="form-control">
+                        <label class="label">
+                            <span class="label-text">NIK</span>
+                        </label>
+                        <input type="NIK" placeholder="{{ Auth::user()->nik }}" class="input input-bordered" required disabled/>
+                    </div>
+                    <div class="form-control">
+                        <label class="label">
+                            <span class="label-text">Jabatan</span>
+                        </label>
+                        <input type="Jabatan" placeholder="{{ Auth::user()->jabatan }}" class="input input-bordered" required disabled/>
+                    </div>
+                    <div class="form-control">
+                        <label class="label">
+                            <span class="label-text">Unit Kerja</span>
+                        </label>
+                        <input type="Unit Kerja" placeholder="{{ Auth::user()->unit_kerja }}" class="input input-bordered" required disabled/>
+                    </div>
+                    <div class="form-control">
+                        <label class="label">
+                            <span class="label-text">Kota</span>
+                        </label>
+                        <input type="Kota" placeholder="Kota" class="input input-bordered" required />
+                    </div>
+                    <div class="form-control mt-6">
+                        <button class="btn btn-primary">Generate</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
