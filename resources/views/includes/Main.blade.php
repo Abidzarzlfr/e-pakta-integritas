@@ -11,7 +11,7 @@
 <body>
     <!-- Layouts -->
     <div class="container mx-auto">
-
+        @yield('home')
     </div>
     <!-- Login Page -->
     @yield('login')
