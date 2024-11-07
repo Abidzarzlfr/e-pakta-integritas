@@ -27,4 +27,7 @@ Route::group(['middleware' => 'guest'], function () {
 Route::group(['middleware' => 'auth'], function () {
     Route::get('/home', [HomeController::class, 'index']);
     Route::get('/logout', [LogoutController::class, 'logout']);
+    Route::post('/update-pdf', [HomeController::class, 'updatePdf'])->name('update-pdf');
+
 });
+

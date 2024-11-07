@@ -72,39 +72,40 @@
             </div>
             <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                 <!-- Form Generate Pakta PDF -->
-                <form class="card-body z-0">
+                <form action="{{ route('update-pdf') }}" method="POST" class="card-body z-0">
+                    @csrf
                     <div class="form-control">
                         <label class="label">
                             <span class="label-text">Nama Lengkap</span>
                         </label>
-                        <input type="nama_lengkap" placeholder="{{ Auth::user()->name }}" class="input input-bordered" required disabled />
+                        <input type="text" name="nama" placeholder="{{ Auth::user()->name }}" class="input input-bordered" required disabled />
                     </div>
                     <div class="form-control">
                         <label class="label">
                             <span class="label-text">NIK</span>
                         </label>
-                        <input type="NIK" placeholder="{{ Auth::user()->nik }}" class="input input-bordered" required disabled/>
+                        <input type="text" name="nik" placeholder="{{ Auth::user()->nik }}" class="input input-bordered" required disabled />
                     </div>
                     <div class="form-control">
                         <label class="label">
                             <span class="label-text">Jabatan</span>
                         </label>
-                        <input type="Jabatan" placeholder="{{ Auth::user()->jabatan }}" class="input input-bordered" required disabled/>
+                        <input type="text" name="jabatan" placeholder="{{ Auth::user()->jabatan }}" class="input input-bordered" required disabled />
                     </div>
                     <div class="form-control">
                         <label class="label">
                             <span class="label-text">Unit Kerja</span>
                         </label>
-                        <input type="Unit Kerja" placeholder="{{ Auth::user()->unit_kerja }}" class="input input-bordered" required disabled/>
+                        <input type="text" name="unit_kerja" placeholder="{{ Auth::user()->unit_kerja }}" class="input input-bordered" required disabled />
                     </div>
                     <div class="form-control">
                         <label class="label">
                             <span class="label-text">Kota</span>
                         </label>
-                        <input type="Kota" placeholder="Kota" class="input input-bordered" required />
+                        <input type="text" name="kota" placeholder="Kota" class="input input-bordered" required />
                     </div>
                     <div class="form-control mt-6">
-                        <button class="btn btn-primary">Generate</button>
+                        <button type="submit" class="btn btn-primary">Generate PDF</button>
                     </div>
                 </form>
             </div>
