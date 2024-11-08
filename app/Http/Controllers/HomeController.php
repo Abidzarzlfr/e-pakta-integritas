@@ -9,7 +9,8 @@ use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
 {
-    public function index() {
+    public function index()
+    {
         return view('layouts.Home');
     }
 
@@ -63,6 +64,10 @@ class HomeController extends Controller
         // Validate that the file is a PDF and size is max 5MB
         $request->validate([
             'pakta_integritas' => 'required|file|mimes:pdf|max:5120'
+        ], [
+            'pakta_integritas.required' => 'Maaf file harus pdf, dan file tidak boleh melebihi 5Mb!',
+            'pakta_integritas.mimes' => 'Mohon maaf, file harus pdf!',
+            'pakta_integritas.max' => 'Mohon maaf, file anda melebihi 5Mb!',
         ]);
 
         // Get the uploaded file
@@ -78,6 +83,7 @@ class HomeController extends Controller
             'pakta_integritas' => $filePath,
         ]);
 
-        return redirect()->back()->with('success', 'Pakta Integritas berhasil diupload.');
+        // Return back with a success message
+        return redirect()->back()->with('success', 'Anda berhasil upload Pakta Integritas!');
     }
 }

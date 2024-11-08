@@ -136,5 +136,55 @@
         </div>
     </div>
 
+    <!-- Success Alert -->
+    @if(session('success'))
+    <div id="alert-success" role="alert" class="alert alert-success fixed bottom-4 left-1/2 transform -translate-x-1/2 p-4 flex items-center space-x-2 w-96 shadow-lg rounded-lg z-40">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 shrink-0 stroke-current" fill="none" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+        <span>Anda berhasil upload Pakta Integritas!</span>
+    </div>
+    @endif
+
+    <!-- Error Alert: File size exceeded -->
+    @if($errors->first('pakta_integritas') == 'Mohon maaf, file anda melebihi 5Mb!')
+    <div id="alert-error-size" role="alert" class="alert alert-error fixed bottom-4 left-1/2 transform -translate-x-1/2 p-4 flex items-center space-x-2 w-96 shadow-lg rounded-lg z-40">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 shrink-0 stroke-current" fill="none" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+        <span>Mohon maaf, file anda melebihi 5Mb</span>
+    </div>
+    @endif
+
+    <!-- Error Alert: Incorrect file type -->
+    @if($errors->first('pakta_integritas') == 'Mohon maaf, file harus pdf!')
+    <div id="alert-error-type" role="alert" class="alert alert-error fixed bottom-4 left-1/2 transform -translate-x-1/2 p-4 flex items-center space-x-2 w-96 shadow-lg rounded-lg z-40">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 shrink-0 stroke-current" fill="none" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+        <span>Mohon maaf, file harus pdf</span>
+    </div>
+    @endif
+
+    <!-- Error Alert: Incorrect file type and size exceeded -->
+    @if($errors->first('pakta_integritas') == 'Mohon maaf file harus pdf, dan file tidak boleh melebihi 5Mb!')
+    <div id="alert-error-both" role="alert" class="alert alert-error fixed bottom-4 left-1/2 transform -translate-x-1/2 p-4 flex items-center space-x-2 w-96 shadow-lg rounded-lg z-40">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 shrink-0 stroke-current" fill="none" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+        <span>Mohon maaf file harus pdf, dan file tidak boleh melebihi 5Mb</span>
+    </div>
+    @endif
+
+    <script>
+        // Function to hide alerts after 5 seconds
+        setTimeout(() => {
+            const alerts = document.querySelectorAll('[role="alert"]');
+            alerts.forEach(alert => {
+                alert.classList.add('hidden');
+            });
+        }, 5000);
+    </script>
+
 </div>
 @endsection
