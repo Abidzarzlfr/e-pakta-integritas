@@ -3,7 +3,7 @@
 @section('home')
 <div class="home">
     <!-- Navbar -->
-    <div class="navbar bg-red-400 rounded-xl mt-5 sticky top-0 z-40">
+    <div class="navbar bg-red-400 rounded-xl mt-5 sticky top-0 z-40 container mx-auto">
         <div class="navbar-start">
             <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -23,16 +23,19 @@
                 <ul
                     tabindex="0"
                     class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                    <li><a>Preview PDF</a></li>
-                    <li><a>Input Data</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Generate</a></li>
+                    <li><a>Upload</a></li>
                 </ul>
             </div>
+            <img class="h-10 w-12" src="{{ asset('assets/telkomedika-logo.png') }}" alt="" />
             <a class="btn btn-ghost text-xl">E-Pakta</a>
         </div>
         <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
-                <li><a>Preview PDF</a></li>
-                <li><a>Input Data</a></li>
+                <li><a>About</a></li>
+                <li><a>Generate</a></li>
+                <li><a>Upload</a></li>
             </ul>
         </div>
         <div class="navbar-end">
@@ -64,7 +67,7 @@
         </div>
     </div>
     <!-- Generate PDF -->
-    <div class="hero min-h-screen">
+    <div class="hero min-h-screen bg-base-200">
         <div class="hero-content flex-col lg:flex-row-reverse">
             <!-- Text -->
             <div class="text-center lg:text-left">
@@ -111,6 +114,23 @@
                         <button type="submit" class="btn btn-primary">Generate PDF</button>
                     </div>
                 </form>
+            </div>
+        </div>
+    </div>
+    <!-- Upload Pakta Integritas -->
+    <div class="hero min-h-screen">
+        <div class="hero-content text-center">
+            <div class="max-w-md">
+                <h1 class="text-5xl font-bold">Upload Pakta Integritas</h1>
+                <p class="py-6">
+                    Upload pakta integritas anda yang sudah diberi
+                    materai dan tanda tangan, dengan tipe file PDF, dan
+                    maksimal 5Mb.
+                </p>
+                <input
+                    type="file"
+                    class="file-input file-input-bordered w-full max-w-xs" />
+                <button class="btn btn-primary">Upload</button>
             </div>
         </div>
     </div>
