@@ -28,7 +28,7 @@
                 </ul>
             </div>
             <img class="h-10 w-12" src="{{ asset('assets/telkomedika-logo.png') }}" alt="" />
-            <a class="btn btn-ghost text-xl">E-Pakta</a>
+            <a class="btn btn-ghost text-xl" href="#about">E-Pakta</a>
         </div>
         <div class="navbar-center hidden lg:flex">
             <!-- Desktop Menu -->
@@ -63,7 +63,7 @@
                     integritas secara otomatis. Klik tombol "Generate" untuk membuat Pakta
                     secara otomatis.
                 </p>
-                <button class="btn btn-base-400">Get Started</button>
+                <a class="btn btn-base-400" href="#generate">Get Started</a>
             </div>
         </div>
     </div>
@@ -75,7 +75,7 @@
             <div class="text-center lg:text-left">
                 <h1 class="text-5xl font-bold">Generate Pakta Integritas</h1>
                 <p class="py-6">
-                    Isi form kosong di samping.
+                    Isi form kosong untuk generate E-Pakta.
                 </p>
             </div>
             <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
