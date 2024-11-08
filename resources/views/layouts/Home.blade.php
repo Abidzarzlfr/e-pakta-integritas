@@ -52,10 +52,12 @@
     <div class="hero min-h-screen">
         <div class="hero-content text-center">
             <div class="max-w-md">
-                <h1 class="text-5xl font-bold">E-Pakta On-progress</h1>
+                <img src="{{ asset('assets/telkomedika-logo.png') }}" alt="" />
+                <h1 class="text-5xl font-bold">E-Pakta Telko<span class="text-red-500">Medika</span></h1>
                 <p class="py-6">
-                    Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                    quasi. In deleniti eaque aut repudiandae et a id nisi.
+                    Website E-Pakta Telkomedika merupakan website untuk mencetak pakta
+                    integritas secara otomatis. Klik tombol "Generate" untuk membuat Pakta
+                    secara otomatis.
                 </p>
                 <button class="btn btn-primary">Get Started</button>
             </div>
@@ -64,8 +66,9 @@
     <!-- Generate PDF -->
     <div class="hero min-h-screen">
         <div class="hero-content flex-col lg:flex-row-reverse">
+            <!-- Text -->
             <div class="text-center lg:text-left">
-                <h1 class="text-5xl font-bold">Generate Elektronik Pakta Integritas</h1>
+                <h1 class="text-5xl font-bold">Generate Pakta Integritas</h1>
                 <p class="py-6">
                     Isi form kosong disamping.
                 </p>

@@ -5,6 +5,7 @@
 <div class="hero bg-base-200 min-h-screen">
     <div class="hero-content flex-col lg:flex-row-reverse">
         <div class="text-center lg:text-left">
+            <img src="{{ asset('assets/telkomedika-logo.png') }}" alt="" />
             <h1 class="text-5xl font-bold">E-Pakta Telko<span class="text-red-500">Medika</span></h1>
             <!-- <p class="py-6">
                     👈🏻 Login Here!
