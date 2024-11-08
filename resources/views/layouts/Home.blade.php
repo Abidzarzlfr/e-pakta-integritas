@@ -20,22 +20,22 @@
                             d="M4 6h16M4 12h8m-8 6h16" />
                     </svg>
                 </div>
-                <ul
-                    tabindex="0"
-                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                    <li><a>About</a></li>
-                    <li><a>Generate</a></li>
-                    <li><a>Upload</a></li>
+                <!-- Mobile Dropdown Menu -->
+                <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#generate">Generate</a></li>
+                    <li><a href="#upload">Upload</a></li>
                 </ul>
             </div>
             <img class="h-10 w-12" src="{{ asset('assets/telkomedika-logo.png') }}" alt="" />
             <a class="btn btn-ghost text-xl">E-Pakta</a>
         </div>
         <div class="navbar-center hidden lg:flex">
+            <!-- Desktop Menu -->
             <ul class="menu menu-horizontal px-1">
-                <li><a>About</a></li>
-                <li><a>Generate</a></li>
-                <li><a>Upload</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#generate">Generate</a></li>
+                <li><a href="#upload">Upload</a></li>
             </ul>
         </div>
         <div class="navbar-end">
@@ -51,8 +51,9 @@
             </ul>
         </div>
     </div>
-    <!-- Hero -->
-    <div class="hero min-h-screen">
+
+    <!-- About Section -->
+    <div id="about" class="hero min-h-screen">
         <div class="hero-content text-center">
             <div class="max-w-md">
                 <img src="{{ asset('assets/telkomedika-logo.png') }}" alt="" />
@@ -66,14 +67,15 @@
             </div>
         </div>
     </div>
-    <!-- Generate PDF -->
-    <div class="hero min-h-screen bg-base-200">
+
+    <!-- Generate PDF Section -->
+    <div id="generate" class="hero min-h-screen bg-base-200">
         <div class="hero-content flex-col lg:flex-row-reverse">
             <!-- Text -->
             <div class="text-center lg:text-left">
                 <h1 class="text-5xl font-bold">Generate Pakta Integritas</h1>
                 <p class="py-6">
-                    Isi form kosong disamping.
+                    Isi form kosong di samping.
                 </p>
             </div>
             <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
@@ -117,8 +119,9 @@
             </div>
         </div>
     </div>
-    <!-- Upload Pakta Integritas -->
-    <div class="hero min-h-screen">
+
+    <!-- Upload Pakta Integritas Section -->
+    <div id="upload" class="hero min-h-screen">
         <div class="hero-content text-center">
             <div class="max-w-md">
                 <h1 class="text-5xl font-bold">Upload Pakta Integritas</h1>
@@ -162,29 +165,29 @@
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 shrink-0 stroke-current" fill="none" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
-        <span>Mohon maaf, file harus pdf</span>
+        <span>Mohon maaf, file harus pdf!</span>
     </div>
     @endif
-
-    <!-- Error Alert: Incorrect file type and size exceeded -->
-    @if($errors->first('pakta_integritas') == 'Mohon maaf file harus pdf, dan file tidak boleh melebihi 5Mb!')
-    <div id="alert-error-both" role="alert" class="alert alert-error fixed bottom-4 left-1/2 transform -translate-x-1/2 p-4 flex items-center space-x-2 w-96 shadow-lg rounded-lg z-40">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 shrink-0 stroke-current" fill="none" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
-        <span>Mohon maaf file harus pdf, dan file tidak boleh melebihi 5Mb</span>
-    </div>
-    @endif
-
-    <script>
-        // Function to hide alerts after 5 seconds
-        setTimeout(() => {
-            const alerts = document.querySelectorAll('[role="alert"]');
-            alerts.forEach(alert => {
-                alert.classList.add('hidden');
-            });
-        }, 5000);
-    </script>
-
 </div>
+
+<script>
+    // Fungsi untuk menghilangkan alert setelah 3 detik
+    setTimeout(() => {
+        const successAlert = document.getElementById('alert-success');
+        const errorSizeAlert = document.getElementById('alert-error-size');
+        const errorTypeAlert = document.getElementById('alert-error-type');
+
+        if (successAlert) successAlert.style.display = 'none';
+        if (errorSizeAlert) errorSizeAlert.style.display = 'none';
+        if (errorTypeAlert) errorTypeAlert.style.display = 'none';
+    }, 3000); // 3000 milidetik = 3 detik
+</script>
+
+
+<!-- Optional Smooth Scrolling -->
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+</style>
 @endsection
