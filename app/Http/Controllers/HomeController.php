@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Pakta;
 use Illuminate\Http\Request;
 use setasign\Fpdi\Fpdi;
 use Illuminate\Support\Facades\Auth;
@@ -55,5 +56,28 @@ class HomeController extends Controller
         $pdf->Output($outputPath, 'F');
 
         return response()->download($outputPath, 'updated-pakta-integritas.pdf');
+    }
+
+    public function uploadPdf(Request $request)
+    {
+        // Validate that the file is a PDF and size is max 5MB
+        $request->validate([
+            'pakta_integritas' => 'required|file|mimes:pdf|max:5120'
+        ]);
+
+        // Get the uploaded file
+        $file = $request->file('pakta_integritas');
+        $user = Auth::user();
+
+        // Store the PDF file in the 'pakta_integritas' directory
+        $filePath = $file->store('pakta_integritas', 'public');
+
+        // Save the file path and user ID in the pakta table
+        Pakta::create([
+            'id_users' => $user->id,
+            'pakta_integritas' => $filePath,
+        ]);
+
+        return redirect()->back()->with('success', 'Pakta Integritas berhasil diupload.');
     }
 }

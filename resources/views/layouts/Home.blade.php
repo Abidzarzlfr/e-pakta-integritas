@@ -62,7 +62,7 @@
                     integritas secara otomatis. Klik tombol "Generate" untuk membuat Pakta
                     secara otomatis.
                 </p>
-                <button class="btn btn-primary">Get Started</button>
+                <button class="btn btn-base-400">Get Started</button>
             </div>
         </div>
     </div>
@@ -123,16 +123,18 @@
             <div class="max-w-md">
                 <h1 class="text-5xl font-bold">Upload Pakta Integritas</h1>
                 <p class="py-6">
-                    Upload pakta integritas anda yang sudah diberi
-                    materai dan tanda tangan, dengan tipe file PDF, dan
-                    maksimal 5Mb.
+                    Upload pakta integritas anda yang sudah diberi materai dan tanda tangan,
+                    dengan tipe file PDF, dan maksimal 5Mb.
                 </p>
-                <input
-                    type="file"
-                    class="file-input file-input-bordered w-full max-w-xs" />
-                <button class="btn btn-primary">Upload</button>
+                <!-- Form for PDF Upload -->
+                <form action="{{ route('upload-pdf') }}" method="POST" enctype="multipart/form-data">
+                    @csrf
+                    <input type="file" name="pakta_integritas" class="file-input file-input-bordered w-full max-w-xs" required />
+                    <button type="submit" class="btn btn-primary mt-4">Upload</button>
+                </form>
             </div>
         </div>
     </div>
+
 </div>
 @endsection
