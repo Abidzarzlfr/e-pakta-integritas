@@ -29,6 +29,4 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/logout', [LogoutController::class, 'logout']);
     Route::post('/update-pdf', [HomeController::class, 'updatePdf'])->name('update-pdf');
     Route::post('/upload-pdf', [HomeController::class, 'uploadPdf'])->name('upload-pdf');
-
 });
-
