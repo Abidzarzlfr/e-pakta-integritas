@@ -15,16 +15,16 @@ class UsersSeeder extends Seeder
     {
         $usersData = [
             [
-                'name' => 'Abidzar',
-                'nik' => 1203324,
+                'name' => 'Percobaan Ke-1',
+                'nik' => 12345678,
                 'jabatan' => 'IT Developer',
                 'role' => 'user',
                 'password' => bcrypt('12345678'),
                 'unit_kerja' => 'Telkomedika Head Office',
             ],
             [
-                'name' => 'Zulfa',
-                'nik' => 3324023,
+                'name' => 'Percobaan Ke-2',
+                'nik' => 12345678,
                 'jabatan' => 'Manager Finance',
                 'role' => 'user',
                 'password' => bcrypt('12345678'),
