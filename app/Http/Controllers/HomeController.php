@@ -61,7 +61,6 @@ class HomeController extends Controller
 
     public function uploadPdf(Request $request)
     {
-        
         $request->validate([
             'pakta_integritas' => 'required|file|mimes:pdf|max:5120'
         ], [

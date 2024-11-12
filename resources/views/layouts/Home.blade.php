@@ -129,15 +129,97 @@
                     Upload pakta integritas anda yang sudah diberi materai dan tanda tangan,
                     dengan tipe file PDF, dan maksimal 5Mb.
                 </p>
+
                 <!-- Form for PDF Upload -->
-                <form action="{{ route('upload-pdf') }}" method="POST" enctype="multipart/form-data">
+                <form id="uploadForm" action="{{ route('upload-pdf') }}" method="POST" enctype="multipart/form-data">
                     @csrf
                     <input type="file" name="pakta_integritas" class="file-input file-input-bordered w-full max-w-xs" required />
-                    <button type="submit" class="btn btn-primary mt-4">Upload</button>
+
+                    <!-- Button to open modal instead of submitting the form -->
+                    <!-- <button type="button" class="btn btn-primary mt-4" onclick="document.getElementById('my_modal_1').showModal()">
+                        Upload
+                    </button> -->
+                    <button type="button" class="btn btn-primary mt-4" onclick="checkFileAndShowModal()">
+                        Upload
+                    </button>
+
                 </form>
             </div>
         </div>
     </div>
+    <!-- Modal for Confirmation -->
+    <dialog id="my_modal_1" class="modal">
+        <div class="modal-box">
+            <h3 class="text-lg font-bold">Konfirmasi Upload</h3>
+            <p class="py-4">Apakah Anda yakin ingin mengupload pakta integritas ini?</p>
+            <p class="text-red-500 text-sm font-bold"><span class="font-bold text-black">Peringatan:</span><br>Pakta integritas yang sudah di upload hanya bisa dikirim sekali saja</p>
+
+            <div class="modal-action">
+                <!-- Close Button for the Modal -->
+                <button class="btn" onclick="document.getElementById('my_modal_1').close()">Batal</button>
+
+                <!-- Submit Button inside modal to confirm upload -->
+                <button class="btn btn-primary" onclick="submitForm()">Ya, Upload</button>
+            </div>
+        </div>
+    </dialog>
+    
+    <script>
+        function checkFileAndShowModal() {
+            const fileInput = document.querySelector('input[name="pakta_integritas"]');
+            const alertContainer = document.getElementById('alert-error-size');
+
+            // Hapus alert error jika ada
+            if (alertContainer) {
+                alertContainer.remove();
+            }
+
+            // Jika file belum dipilih, tampilkan alert
+            if (fileInput.files.length === 0) {
+                const alertDiv = document.createElement('div');
+                alertDiv.id = 'alert-error-size';
+                alertDiv.role = 'alert';
+                alertDiv.className = 'alert alert-error fixed bottom-4 left-1/2 transform -translate-x-1/2 p-4 flex items-center space-x-2 w-96 shadow-lg rounded-lg z-40';
+
+                // Tambahkan ikon SVG ke alert
+                alertDiv.innerHTML = `
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 shrink-0 stroke-current" fill="none" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span>File belum dipilih</span>
+        `;
+
+                // Tambahkan alert ke body
+                document.body.appendChild(alertDiv);
+
+                // Hapus alert setelah beberapa detik
+                setTimeout(() => {
+                    alertDiv.remove();
+                }, 3000); // 3 detik
+            } else {
+                document.getElementById('my_modal_1').showModal();
+            }
+        }
+
+
+        // Fungsi untuk submit form setelah konfirmasi
+        function submitForm() {
+            document.getElementById("uploadForm").submit();
+        }
+
+        // Fungsi untuk menghilangkan alert setelah 3 detik
+        setTimeout(() => {
+            const successAlert = document.getElementById('alert-success');
+            const errorSizeAlert = document.getElementById('alert-error-size');
+            const errorTypeAlert = document.getElementById('alert-error-type');
+
+            if (successAlert) successAlert.style.display = 'none';
+            if (errorSizeAlert) errorSizeAlert.style.display = 'none';
+            if (errorTypeAlert) errorTypeAlert.style.display = 'none';
+        }, 3000); // 3000 milidetik = 3
+    </script>
+
+
 
     <!-- Success Alert -->
     @if(session('success'))
