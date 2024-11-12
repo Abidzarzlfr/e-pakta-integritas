@@ -149,9 +149,13 @@
     </div>
     <!-- Modal for Confirmation -->
     <dialog id="my_modal_1" class="modal">
-        <div class="modal-box">
+        <div class="modal-box w-11/12 max-w-5xl">
             <h3 class="text-lg font-bold">Konfirmasi Upload</h3>
             <p class="py-4">Apakah Anda yakin ingin mengupload pakta integritas ini?</p>
+
+            <!-- Pratinjau PDF Sementara -->
+            <iframe id="pdfPreview" class="w-full h-96 mb-4" src="" type="application/pdf"></iframe>
+
             <p class="text-red-500 text-sm font-bold"><span class="font-bold text-black">Peringatan:</span><br>Pakta integritas yang sudah di upload hanya bisa dikirim sekali saja</p>
 
             <div class="modal-action">
@@ -163,11 +167,12 @@
             </div>
         </div>
     </dialog>
-    
+
     <script>
         function checkFileAndShowModal() {
             const fileInput = document.querySelector('input[name="pakta_integritas"]');
             const alertContainer = document.getElementById('alert-error-size');
+            const pdfPreview = document.getElementById('pdfPreview');
 
             // Hapus alert error jika ada
             if (alertContainer) {
@@ -183,20 +188,23 @@
 
                 // Tambahkan ikon SVG ke alert
                 alertDiv.innerHTML = `
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 shrink-0 stroke-current" fill="none" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-            <span>File belum dipilih</span>
-        `;
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 shrink-0 stroke-current" fill="none" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span>File belum dipilih</span>
+            `;
 
-                // Tambahkan alert ke body
                 document.body.appendChild(alertDiv);
 
-                // Hapus alert setelah beberapa detik
                 setTimeout(() => {
                     alertDiv.remove();
                 }, 3000); // 3 detik
             } else {
+                // Buat URL sementara untuk pratinjau PDF
+                const file = fileInput.files[0];
+                const fileUrl = URL.createObjectURL(file);
+                pdfPreview.src = fileUrl; // Setel sumber pratinjau PDF
+
                 document.getElementById('my_modal_1').showModal();
             }
         }
