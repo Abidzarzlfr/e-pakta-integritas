@@ -19,7 +19,8 @@ class HomeController extends Controller
     {
         // Path to the original PDF
         $filePath = public_path('assets/pakta-integritas.pdf');
-        $outputPath = public_path('assets/updated-pakta-integritas.pdf');
+        $outputPath = public_path("assets/" . Auth::user()->nik . "_generate_pakta_integritas.pdf");
+
 
         // Get user data
         $user = Auth::user();
@@ -57,7 +58,7 @@ class HomeController extends Controller
         // Save the modified PDF
         $pdf->Output($outputPath, 'F');
 
-        return response()->download($outputPath, 'updated-pakta-integritas.pdf');
+        return response()->download($outputPath, Auth::user()->nik . "_generate_pakta_integritas.pdf");
     }
 
     public function uploadPdf(Request $request)
@@ -75,7 +76,7 @@ class HomeController extends Controller
         // Path file
         $filePath = $file->store('pakta_integritas', 'public');
         // $filePath = 'uploads/' . Auth::id() . '_pakta_integritas.pdf';
-        $filePath = Auth::user()->name . '_Pakta Integritas.pdf';
+        $filePath = Auth::user()->nik . '_upload_pakta_integritas.pdf';
 
         // Simpan file PDF yang diunggah
         Storage::put($filePath, file_get_contents($file));
