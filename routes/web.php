@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ForgotPasswordController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\LogoutController;
@@ -22,6 +23,7 @@ Route::group(['middleware' => 'guest'], function () {
     });
     Route::get('/login', [LoginController::class, 'index']);
     Route::post('/login', [LoginController::class, 'login'])->name('login');
+    Route::post('/forgot-password', [ForgotPasswordController::class, 'resetPassword'])->name('forgot-password');
 });
 
 Route::group(['middleware' => 'auth'], function () {
