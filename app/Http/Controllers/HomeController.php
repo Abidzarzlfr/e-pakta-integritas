@@ -6,6 +6,7 @@ use App\Models\Pakta;
 use Illuminate\Http\Request;
 use setasign\Fpdi\Fpdi;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Storage;
 
 class HomeController extends Controller
 {
@@ -68,13 +69,23 @@ class HomeController extends Controller
             'pakta_integritas.mimes' => 'Mohon maaf, file harus pdf!',
             'pakta_integritas.max' => 'Mohon maaf, file anda melebihi 5Mb!',
         ]);
-
-        // Get the uploaded file
+        // Save PDF Pakta Integritas
         $file = $request->file('pakta_integritas');
         $user = Auth::user();
-
-        // Store the PDF file in the 'pakta_integritas' directory
+        // Path file
         $filePath = $file->store('pakta_integritas', 'public');
+        // $filePath = 'uploads/' . Auth::id() . '_pakta_integritas.pdf';
+        $filePath = Auth::user()->name . '_Pakta Integritas.pdf';
+
+        // Simpan file PDF yang diunggah
+        Storage::put($filePath, file_get_contents($file));
+
+        // Update upload_status column on table users
+        $user = Auth::user();
+        if ($user) {
+            $user->upload_status = 'y';
+            $user->save();
+        }
 
         // Save the file path and user ID in the pakta table
         Pakta::create([
@@ -82,7 +93,6 @@ class HomeController extends Controller
             'pakta_integritas' => $filePath,
         ]);
 
-        // Return back with a success message
         return redirect()->back()->with('success', 'Anda berhasil upload Pakta Integritas!');
     }
 }

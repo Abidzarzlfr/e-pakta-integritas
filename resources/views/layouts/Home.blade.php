@@ -133,16 +133,16 @@
                 <!-- Form for PDF Upload -->
                 <form id="uploadForm" action="{{ route('upload-pdf') }}" method="POST" enctype="multipart/form-data">
                     @csrf
+                    
+                    @if(Auth::user()->upload_status == 'y')
+                    <!-- Disabled button if already uploaded -->
+                    <input type="file" name="pakta_integritas" class="file-input file-input-bordered w-full max-w-xs" required disabled/>
+                    <button type="button" class="btn btn-secondary mt-4" disabled>Upload ✔️</button>
+                    @else
+                    <!-- Button to open modal for upload -->
                     <input type="file" name="pakta_integritas" class="file-input file-input-bordered w-full max-w-xs" required />
-
-                    <!-- Button to open modal instead of submitting the form -->
-                    <!-- <button type="button" class="btn btn-primary mt-4" onclick="document.getElementById('my_modal_1').showModal()">
-                        Upload
-                    </button> -->
-                    <button type="button" class="btn btn-primary mt-4" onclick="checkFileAndShowModal()">
-                        Upload
-                    </button>
-
+                    <button type="button" class="btn btn-primary mt-4" onclick="checkFileAndShowModal()">Upload</button>
+                    @endif
                 </form>
             </div>
         </div>

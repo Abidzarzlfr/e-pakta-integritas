@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('nik')->unique();
             $table->string('jabatan');
             $table->enum('role', ['user', 'admin'])->default('user');
+            $table->enum('upload_status', ['y', 'n'])->default('n');
             $table->string('password');
             $table->string('unit_kerja');
             $table->string('kota')->nullable();
