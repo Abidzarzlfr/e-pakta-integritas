@@ -44,11 +44,73 @@
                     <details>
                         <summary>{{ Auth::user()->nik }}</summary>
                         <ul class="bg-base-100 rounded-t-none p-2">
+                            <li><a href="#" onclick="my_modal_5.showModal()">Change Password</a></li>
                             <li><a href="logout">Logout</a></li>
                         </ul>
                     </details>
                 </li>
             </ul>
+            <!-- Modal Change Password -->
+            <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                <div class="modal-box">
+                    <h3 class="text-lg font-bold">Change Password</h3>
+                    <form action="{{ route('change-password') }}" method="POST">
+                        @csrf
+                        <div class="form-control">
+                            <label class="label"><span class="label-text">NIK</span></label>
+                            <input type="text" name="nik" placeholder="{{Auth::user()->nik}}" class="input input-bordered" required disabled />
+                            @error('nik')
+                            <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
+                            @enderror
+                        </div>
+                        <div class="form-control">
+                            <label class="label"><span class="label-text">New Password</span></label>
+                            <div class="relative">
+                                <input type="password" id="new-password" name="new_password" placeholder="New password" class="input input-bordered w-full pr-10" required />
+                                <button type="button" onclick="togglePassword('new-password', 'new-eye-icon')" class="absolute inset-y-0 right-0 flex items-center px-3 text-gray-600">
+                                    <i id="new-eye-icon" class="fa-regular fa-eye"></i>
+                                </button>
+                            </div>
+                            @error('new_password')
+                            <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
+                            @enderror
+                        </div>
+                        <div class="form-control">
+                            <label class="label"><span class="label-text">Confirmation Password</span></label>
+                            <div class="relative">
+                                <input type="password" id="confirm-password" name="confirm_password" placeholder="Confirm password" class="input input-bordered w-full pr-10" required />
+                                <button type="button" onclick="togglePassword('confirm-password', 'confirm-eye-icon')" class="absolute inset-y-0 right-0 flex items-center px-3 text-gray-600">
+                                    <i id="confirm-eye-icon" class="fa-regular fa-eye"></i>
+                                </button>
+                            </div>
+                            @error('confirm_password')
+                            <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
+                            @enderror
+                        </div>
+                        <div class="modal-action">
+                            <button type="button" class="btn" onclick="document.getElementById('my_modal_5').close()">Close</button>
+                            <button type="submit" class="btn btn-error">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </dialog>
+            <!-- Login Transparancy Password -->
+            <script>
+                function togglePassword(inputId, iconId) {
+                    const passwordField = document.getElementById(inputId);
+                    const eyeIcon = document.getElementById(iconId);
+
+                    if (passwordField.type === 'password') {
+                        passwordField.type = 'text';
+                        eyeIcon.classList.remove('fa-eye');
+                        eyeIcon.classList.add('fa-eye-slash');
+                    } else {
+                        passwordField.type = 'password';
+                        eyeIcon.classList.remove('fa-eye-slash');
+                        eyeIcon.classList.add('fa-eye');
+                    }
+                }
+            </script>
         </div>
     </div>
 
@@ -133,10 +195,10 @@
                 <!-- Form for PDF Upload -->
                 <form id="uploadForm" action="{{ route('upload-pdf') }}" method="POST" enctype="multipart/form-data">
                     @csrf
-                    
+
                     @if(Auth::user()->upload_status == 'y')
                     <!-- Disabled button if already uploaded -->
-                    <input type="file" name="pakta_integritas" class="file-input file-input-bordered w-full max-w-xs" required disabled/>
+                    <input type="file" name="pakta_integritas" class="file-input file-input-bordered w-full max-w-xs" required disabled />
                     <button type="button" class="btn btn-secondary mt-4" disabled>Upload ✔️</button>
                     @else
                     <!-- Button to open modal for upload -->
@@ -228,6 +290,25 @@
     </script>
 
 
+    {{-- resources/views/includes/alert.blade.php --}}
+    @if(session('success_change_password'))
+    <div id="alert-success" role="alert" class="alert alert-success fixed bottom-4 left-1/2 transform -translate-x-1/2 p-4 flex items-center space-x-2 w-96 shadow-lg rounded-lg z-40">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 shrink-0 stroke-current" fill="none" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+        <span>Anda berhasil mengganti password.</span>
+    </div>
+    @endif
+    <!-- Error Alert: Konfirmasi Password Tidak Sesuai -->
+    @if($errors->first('confirm_password') == 'Konfirmasi password tidak sesuai.')
+    <div id="alert-error-confirm" role="alert" class="alert alert-error fixed bottom-4 left-1/2 transform -translate-x-1/2 p-4 flex items-center space-x-2 w-96 shadow-lg rounded-lg z-40">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 shrink-0 stroke-current" fill="none" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+        <span>Konfirmasi password tidak sesuai.</span>
+    </div>
+    @endif
+
 
     <!-- Success Alert -->
     @if(session('success'))
@@ -266,10 +347,12 @@
         const successAlert = document.getElementById('alert-success');
         const errorSizeAlert = document.getElementById('alert-error-size');
         const errorTypeAlert = document.getElementById('alert-error-type');
+        const errorConfirmAlert = document.getElementById('alert-error-confirm');
 
         if (successAlert) successAlert.style.display = 'none';
         if (errorSizeAlert) errorSizeAlert.style.display = 'none';
         if (errorTypeAlert) errorTypeAlert.style.display = 'none';
+        if (errorConfirmAlert) errorConfirmAlert.style.display = 'none';
     }, 3000); // 3000 milidetik = 3 detik
 </script>
 
