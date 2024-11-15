@@ -123,7 +123,7 @@
                 <p class="py-6">
                     Website E-Pakta Telkomedika merupakan website untuk mencetak pakta
                     integritas secara otomatis. Klik tombol "Generate" untuk membuat Pakta
-                    secara otomatis.
+                    secara otomatiss.
                 </p>
                 <a class="btn btn-base-400" href="#generate">Get Started</a>
             </div>
