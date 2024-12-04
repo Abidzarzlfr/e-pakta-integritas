@@ -18,7 +18,7 @@ class HomeController extends Controller
     public function updatePdf(Request $request)
     {
         // Path to the original PDF
-        $filePath = public_path('assets/pakta-integritas.pdf');
+        $filePath = public_path('assets/pakta-integritas-dec.pdf');
         $outputPath = public_path("assets/" . Auth::user()->nik . "_generate_pakta_integritas.pdf");
 
 
@@ -43,16 +43,16 @@ class HomeController extends Controller
         $pdf->SetTextColor(0, 0, 0);
 
         // Position the text on the PDF (adjust coordinates as needed)
-        $pdf->SetXY(60, 60);
+        $pdf->SetXY(60, 64.5);
         $pdf->Write(0, $name);
 
-        $pdf->SetXY(60, 65);
+        $pdf->SetXY(60, 69.5);
         $pdf->Write(0, $nik);
 
-        $pdf->SetXY(60, 70);
+        $pdf->SetXY(60, 74.5);
         $pdf->Write(0, $jabatan);
 
-        $pdf->SetXY(37, 240);
+        $pdf->SetXY(37, 244.5);
         $pdf->Write(0, $kota);
 
         // Save the modified PDF
