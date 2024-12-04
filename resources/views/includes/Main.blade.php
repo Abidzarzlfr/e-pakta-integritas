@@ -14,6 +14,7 @@
     <!-- Layouts -->
     <div class="layouts">
         @yield('home')
+        @yield('DashboardAdmin')
     </div>
     <!-- Login Page -->
     @yield('login')

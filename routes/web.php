@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ChangePasswordController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\LoginController;
@@ -32,4 +33,7 @@ Route::group(['middleware' => 'auth'], function () {
     Route::post('/upload-pdf', [HomeController::class, 'uploadPdf'])->name('upload-pdf');
     Route::post('/upload-pdf', [HomeController::class, 'uploadPdf'])->name('upload-pdf');
     Route::post('/change-password', [ChangePasswordController::class, 'changePassword'])->name('change-password');
+
+    // Admin Page
+    Route::get('/admin', [AdminController::class, 'index'])->name('admin');
 });

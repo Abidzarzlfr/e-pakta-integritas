@@ -25,7 +25,9 @@ class RedirectIfAuthenticated
                 // Pengecekan role pengguna
                 if ($user->role == 'user') {
                     return redirect(RouteServiceProvider::HOME[0]);
-                }  else {
+                } elseif ($user->role == 'admin') {
+                    return redirect(RouteServiceProvider::HOME[1]);
+                } else {
                     // Jika tidak ada peran yang sesuai, lanjutkan dengan eksekusi berikutnya
                     return $next($request);
                 }

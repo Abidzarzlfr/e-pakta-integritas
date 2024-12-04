@@ -13,6 +13,29 @@ class UsersSeeder extends Seeder
      */
     public function run(): void
     {
+        // $usersData = [
+        //     [
+        //         'name' => 'Admin',
+        //         'nik' => '112233',
+        //         'jabatan' => 'Admin',
+        //         'role' => 'admin',
+        //         'upload_status' => 'n',
+        //         'password' => bcrypt("Adminepakta@2024#!"),
+        //         'unit_kerja' => 'IT'
+        //     ],
+        // ];
+        
+        // $usersData = [
+        //     [
+        //         'name' => 'Arni Irawati Sam',
+        //         'nik' => '21175067',
+        //         'jabatan' => 'TTK',
+        //         'role' => 'admin',
+        //         'upload_status' => 'n',
+        //         'password' => bcrypt("Telkomedika@2024#!"),
+        //         'unit_kerja' => 'THC Manado'
+        //     ],
+        // ];
         $usersData = [
             [
                 'name' => 'Cornelia Savitri Shintawati H',

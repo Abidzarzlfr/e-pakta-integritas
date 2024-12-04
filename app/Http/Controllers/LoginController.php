@@ -7,7 +7,8 @@ use Illuminate\Support\Facades\Auth;
 
 class LoginController extends Controller
 {
-    public function index() {
+    public function index()
+    {
         return view('login');
     }
     public function login(Request $request)
@@ -28,10 +29,9 @@ class LoginController extends Controller
         if (Auth::attempt($login)) {
             if (Auth::user()->role == 'user') {
                 return redirect('/home');
+            } elseif (Auth::user()->role == 'admin') {
+                return redirect('/admin');
             }
-            // elseif (Auth::user()->role == 'admin') {
-            //     return redirect('/adminView');
-            // }
         } else {
             return redirect('/')->withErrors('Username atau password yang dimasukkan salah')->withInput();
         }
