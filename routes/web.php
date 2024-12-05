@@ -36,4 +36,5 @@ Route::group(['middleware' => 'auth'], function () {
 
     // Admin Page
     Route::get('/admin', [AdminController::class, 'index'])->name('admin');
+    Route::get('/users/search', [AdminController::class, 'search'])->name('users.search');
 });
