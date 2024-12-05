@@ -44,7 +44,7 @@
                     <summary>{{ Auth::user()->name }}</summary>
                     <ul class="bg-base-100 rounded-t-none p-2">
                         <li><a href="#" onclick="my_modal_5.showModal()">Change Password</a></li>
-                        <li><a href="logout">Logout</a></li>
+                        <li><a href="/logout">Logout</a></li>
                     </ul>
                 </details>
             </li>
@@ -112,6 +112,44 @@
         </script>
     </div>
 </div>
+
+<!-- Add User -->
+<section class="bg-gray-50 dark:bg-gray-900">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16">
+        <div class="flex flex-col justify-center">
+            <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-4xl lg:text-5xl dark:text-white">Add User</h1>
+            <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">User data include name, nik, jabatan, dan unit kerja</p>
+        </div>
+        <div>
+            <div class="w-full lg:max-w-xl p-6 space-y-8 sm:p-8 bg-white rounded-lg shadow-xl dark:bg-gray-800">
+                <h2 class="text-2xl font-bold text-gray-900 dark:text-white">
+                    Input User Data
+                </h2>
+                <form class="mt-8 space-y-6" method="POST" action="{{ route('users.store') }}">
+                    @csrf
+                    <div>
+                        <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Name</label>
+                        <input type="text" name="name" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Employee Name" required />
+                    </div>
+                    <div>
+                        <label for="nik" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">NIK</label>
+                        <input type="text" name="nik" id="nik" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="NIK" required />
+                    </div>
+                    <div>
+                        <label for="jabatan" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Jabatan</label>
+                        <input type="text" name="jabatan" id="jabatan" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Jabatan" required />
+                    </div>
+                    <div>
+                        <label for="unit_kerja" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Unit Kerja</label>
+                        <input type="text" name="unit_kerja" id="unit_kerja" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Unit Kerja" required />
+                    </div>
+                    <button type="submit" class="w-full px-5 py-3 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 sm:w-auto dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <!-- Table Users -->
 <section class="bg-white dark:bg-gray-900 z-0">
@@ -243,9 +281,9 @@
                             </div>
 
                             <!-- Modal Delete Button -->
-                            <button type="button" class="font-medium text-blue-600 dark:text-blue-500 hover:underline" data-modal-target="popup-modal-{{ $item->id }}" data-modal-toggle="popup-modal-{{ $item->id }}">Delete</button>
+                            <!-- <button type="button" class="font-medium text-blue-600 dark:text-blue-500 hover:underline" data-modal-target="popup-modal-{{ $item->id }}" data-modal-toggle="popup-modal-{{ $item->id }}">Delete</button> -->
                             <!-- Modal Delete -->
-                            <div id="popup-modal-{{ $item->id }}" tabindex="-1" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+                            <!-- <div id="popup-modal-{{ $item->id }}" tabindex="-1" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
                                 <div class="relative p-4 w-full max-w-md max-h-full">
                                     <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
                                         <button type="button" class="absolute top-3 end-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="popup-modal-{{ $item->id }}">
@@ -262,7 +300,7 @@
                                                 Are you sure you want to delete user: <strong>{{ $item->name }}</strong>?
                                             </h3>
 
-                                            <!-- Form delete -->
+                                            
                                             <form action="{{ route('users.delete', $item->id) }}" method="POST">
                                                 @csrf
                                                 @method('DELETE')
@@ -271,8 +309,8 @@
                                                 </button>
                                             </form>
 
-                                            <!-- Tombol No, cancel -->
-                                            <div class="flex justify-center space-x-4 mt-4"> <!-- Tambahkan flex dan justify-center -->
+                                            
+                                            <div class="flex justify-center space-x-4 mt-4">
                                                 <button type="button" class="py-2.5 px-5 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700" data-modal-hide="popup-modal-{{ $item->id }}">
                                                     No, cancel
                                                 </button>
@@ -280,7 +318,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </td>
                     </tr>
                     @endforeach
