@@ -31,7 +31,33 @@ class AdminController extends Controller
         return view('admin.Admin', compact('users'));
     }
 
-    public function delete($id) {
+    public function update(Request $request, $id)
+    {
+        // Validasi data input
+        $validated = $request->validate([
+            'name' => 'nullable|string|max:100',
+            'nik' => 'nullable|string|max:32',
+            'jabatan' => 'nullable|string|max:100',
+            'unit_kerja' => 'nullable|string|max:60',
+        ]);
+
+        // Mencari klinik berdasarkan ID yang diberikan
+        $users = User::findOrFail($id);
+
+        // Update data klinik
+        $users->update([
+            'name' => $validated['name'],
+            'nik' => $validated['nik'],
+            'jabatan' => $validated['jabatan'],
+            'unit_kerja' => $validated['unit_kerja'],
+        ]);
+
+        // Redirect dengan pesan sukses
+        return redirect()->back()->with('success', 'Users updated successfully');
+    }
+
+    public function delete($id)
+    {
         $users = User::findOrFail($id);
         $users->delete();
 

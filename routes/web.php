@@ -38,4 +38,5 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/admin', [AdminController::class, 'index'])->name('admin');
     Route::get('/users/search', [AdminController::class, 'search'])->name('users.search');
     Route::delete('/users/delete/{id}', [AdminController::class, 'delete'])->name('users.delete');
+    Route::put('/users/{id}/update', [AdminController::class, 'update'])->name('users.update');
 });
