@@ -9,7 +9,7 @@ class AdminController extends Controller
 {
     public function index()
     {
-        $users = User::paginate(10);
+        $users = User::paginate(15);
 
         return view('admin.Admin', compact('users'));
     }
@@ -29,5 +29,12 @@ class AdminController extends Controller
 
         // Pass the users to the view
         return view('admin.Admin', compact('users'));
+    }
+
+    public function delete($id) {
+        $users = User::findOrFail($id);
+        $users->delete();
+
+        return redirect()->back()->with('success', 'Users deleted successfully');
     }
 }
