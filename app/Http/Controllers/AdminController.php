@@ -6,7 +6,10 @@ use App\Models\Pakta;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Response;
+use Maatwebsite\Excel\Facades\Excel;
 use ZipArchive;
+use App\Exports\UsersExport;
 
 class AdminController extends Controller
 {
@@ -137,4 +140,62 @@ class AdminController extends Controller
         // Mengirimkan file ZIP untuk diunduh
         return response()->download($zipPath)->deleteFileAfterSend(true);
     }
+
+    // Fungsi untuk download Excel berdasarkan upload_status = 'y'
+    public function downloadExcelUploaded()
+    {
+        return Excel::download(new UsersExport('y'), 'upload_status_y.xlsx');
+    }
+
+    // Fungsi untuk download Excel berdasarkan upload_status = 'n'
+    public function downloadExcelNotUploaded()
+    {
+        return Excel::download(new UsersExport('n'), 'upload_status_n.xlsx');
+    }
+
+    // Fungsi untuk download Excel yang mencakup semua data (upload_status = 'y' dan 'n')
+    public function downloadExcelAll()
+    {
+        return Excel::download(new UsersExport('all'), 'all_users.xlsx');
+    }
+
+    // Fungsi untuk membuat response CSV
+    // private function createCsvResponse($users, $fileName)
+    // {
+    //     // Membuat file CSV di memori
+    //     $csvHeader = ['Name', 'NIK', 'Jabatan', 'Upload Status', 'Unit Kerja'];
+    //     $csvData = $users->map(function ($user) {
+    //         return [
+    //             $user->name,
+    //             $user->nik,
+    //             $user->jabatan,
+    //             $user->upload_status,
+    //             $user->unit_kerja,
+    //         ];
+    //     });
+
+    //     // Open output stream
+    //     $csvContent = fopen('php://temp', 'r+');
+
+    //     // Menulis header ke CSV
+    //     fputcsv($csvContent, $csvHeader);
+
+    //     // Menulis data user ke CSV
+    //     foreach ($csvData as $data) {
+    //         fputcsv($csvContent, $data);
+    //     }
+
+    //     // Move pointer ke awal file untuk dibaca
+    //     rewind($csvContent);
+
+    //     // Menyusun response untuk mengunduh file CSV
+    //     return Response::stream(function () use ($csvContent) {
+    //         while ($line = fgets($csvContent)) {
+    //             echo $line;
+    //         }
+    //     }, 200, [
+    //         "Content-Type" => "text/csv",
+    //         "Content-Disposition" => "attachment; filename=$fileName",
+    //     ]);
+    // }
 }

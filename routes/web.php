@@ -42,4 +42,8 @@ Route::group(['middleware' => 'auth'], function () {
     Route::put('/users/{id}/update', [AdminController::class, 'update'])->name('users.update');
     Route::get('/admin/download-all-pakta', [AdminController::class, 'downloadAllPdf'])->name('admin.downloadAllPakta');
 
+    // Route untuk download Excel berdasarkan upload_status
+    Route::get('/admin/download-excel-uploaded', [AdminController::class, 'downloadExcelUploaded'])->name('admin.downloadExcelUploaded');
+    Route::get('/admin/download-excel-not-uploaded', [AdminController::class, 'downloadExcelNotUploaded'])->name('admin.downloadExcelNotUploaded');
+    Route::get('/admin/download-excel-all', [AdminController::class, 'downloadExcelAll'])->name('admin.downloadExcelAll');
 });
