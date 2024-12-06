@@ -2,7 +2,7 @@
 
 @section('DashboardAdmin')
 <!-- Navbar -->
-<div class="navbar bg-cyan-600 rounded-xl mt-5 sticky top-0 z-40 container mx-auto">
+<div class="navbar bg-primary text-white rounded-xl mt-5 sticky top-0 z-40 container mx-auto">
     <div class="navbar-start">
         <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -155,7 +155,7 @@
     <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
         <!-- Heading Table Users -->
         <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-3xl lg:text-4xl dark:text-white">User Table</h1>
-        <div class="flex gap-5 items-center">
+        <div class="flex gap-2 items-center">
             <!-- Search Input -->
             <div class="relative pb-4 bg-white dark:bg-gray-900">
                 <form method="GET" action="{{ route('users.search') }}">
@@ -172,12 +172,29 @@
                     </div>
                 </form>
             </div>
-
+            <!-- CSV Dropdown Download -->
+            <button id="dropdownDelayButton" data-dropdown-toggle="dropdownDelay" data-dropdown-delay="500" data-dropdown-trigger="hover" class="h-12 mb-2.5 text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800" type="button">Download CSV <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
+                </svg>
+            </button>
+            <!-- CSV Dropdown menu -->
+            <div id="dropdownDelay" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+                <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDelayButton">
+                    <li>
+                        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sudah Upload</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Belum Upload</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Semua Data</a>
+                    </li>
+                </ul>
+            </div>
             <!-- Download Button -->
             <button data-modal-target="popup-modal" data-modal-toggle="popup-modal" class="mb-2.5 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-3 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 h-12" type="button">
-                Download All
+                Download All Pakta
             </button>
-
             <!-- Modal Download -->
             <div id="popup-modal" tabindex="-1" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
                 <div class="relative p-4 w-full max-w-md max-h-full">
