@@ -42,7 +42,7 @@
             <li>
                 <details>
                     <summary>{{ Auth::user()->name }}</summary>
-                    <ul class="bg-base-100 rounded-t-none p-2">
+                    <ul class="text-black dark:text-white rounded-t-none p-2">
                         <li><a href="#" onclick="my_modal_5.showModal()">Change Password</a></li>
                         <li><a href="/logout">Logout</a></li>
                     </ul>
@@ -416,7 +416,4 @@
         sessionStorage.setItem("scrollPosition", window.scrollY);
     };
 </script>
-
-
-
 @endsection
