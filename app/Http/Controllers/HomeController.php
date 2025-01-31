@@ -17,47 +17,66 @@ class HomeController extends Controller
 
     public function updatePdf(Request $request)
     {
-        // Path to the original PDF
-        $filePath = public_path('assets/pakta-integritas-dec.pdf');
+        // Path ke PDF asli
+        $filePath = public_path('assets/pakta-integritas-2025.pdf');
         $outputPath = public_path("assets/" . Auth::user()->nik . "_generate_pakta_integritas.pdf");
 
-
-        // Get user data
+        // Ambil data pengguna
         $user = Auth::user();
         $name = $user->name;
         $nik = $user->nik;
         $jabatan = $user->jabatan;
-        $kota = $request->input('kota'); // Assume the city is input by the user
+        $kota = $request->input('kota'); // Asumsi kota diinput pengguna
 
-        // Initialize FPDI
+        // Inisialisasi FPDI
         $pdf = new Fpdi();
-        $pdf->AddPage();
 
-        // Import the first page of the existing PDF
-        $pdf->setSourceFile($filePath);
-        $templateId = $pdf->importPage(1);
-        $pdf->useTemplate($templateId);
+        // Ambil jumlah halaman dalam PDF asli
+        $pageCount = $pdf->setSourceFile($filePath);
 
-        // Set font and add user details
-        $pdf->SetFont('Arial', '', 9);
-        $pdf->SetTextColor(0, 0, 0);
+        // Loop untuk memproses setiap halaman
+        for ($pageNumber = 1; $pageNumber <= $pageCount; $pageNumber++) {
+            // Tambahkan halaman baru
+            $pdf->AddPage();
 
-        // Position the text on the PDF (adjust coordinates as needed)
-        $pdf->SetXY(60, 64.5);
-        $pdf->Write(0, $name);
+            // Impor halaman saat ini
+            $templateId = $pdf->importPage($pageNumber);
+            $pdf->useTemplate($templateId);
 
-        $pdf->SetXY(60, 69.5);
-        $pdf->Write(0, $nik);
+            // Tambahkan teks hanya pada halaman pertama
+            if ($pageNumber === 1) {
+                $pdf->SetFont('Arial', '', 9);
+                $pdf->SetTextColor(0, 0, 0);
 
-        $pdf->SetXY(60, 74.5);
-        $pdf->Write(0, $jabatan);
+                // Posisi teks di halaman pertama (sesuaikan koordinat jika perlu)
+                $pdf->SetXY(50, 47.7);
+                $pdf->Write(0, $name);
 
-        $pdf->SetXY(37, 244.5);
-        $pdf->Write(0, $kota);
+                $pdf->SetXY(50, 52.7);
+                $pdf->Write(0, $nik);
 
-        // Save the modified PDF
+                $pdf->SetXY(50, 57.7);
+                $pdf->Write(0, $jabatan);
+            }
+            if ($pageNumber === 2) {
+                $pdf->SetFont('Arial', 'B', 9); // Bold untuk $kota
+                $pdf->SetTextColor(0, 0, 0);
+
+                $pdf->SetXY(24.5, 170);
+                $pdf->Write(0, $kota); // Cetak kota dalam bold
+
+                $pdf->SetFont('Arial', '', 9); // Kembali ke font normal
+                $pdf->Write(0, ', .......................'); // Cetak titik tanpa bold
+
+                $pdf->SetXY(31, 202.05);
+                $pdf->Write(0, $nik);
+            }
+        }
+
+        // Simpan PDF hasil edit
         $pdf->Output($outputPath, 'F');
 
+        // Kembalikan file yang telah dimodifikasi ke pengguna
         return response()->download($outputPath, Auth::user()->nik . "_generate_pakta_integritas.pdf");
     }
 
