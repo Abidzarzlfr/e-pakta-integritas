@@ -20,7 +20,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Admin',
                 'role' => 'admin',
                 'upload_status' => 'n',
-                'password' => bcrypt("Adminepakta@2024#!"),
+                'password' => bcrypt("Adminepakta@2025#!"),
                 'unit_kerja' => 'IT'
             ],
             [
@@ -29,7 +29,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Direktur Utama',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Management'
             ],
             [
@@ -38,7 +38,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Direktur',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Management'
             ],
             [
@@ -47,7 +47,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'General Manager Operation',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Business Operation'
             ],
             [
@@ -56,7 +56,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Assistant Manager Layanan Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Layanan Medis'
             ],
             [
@@ -65,7 +65,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Officer Operational Klinik',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Layanan Medis'
             ],
             [
@@ -74,7 +74,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Officer Operasional Klinik',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Layanan Medis'
             ],
             [
@@ -83,7 +83,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Officer Operasional Klinik',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Layanan Medis'
             ],
             [
@@ -92,7 +92,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Officer Operasional Klinik',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Layanan Medis'
             ],
             [
@@ -101,7 +101,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Operasional Klinik',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Layanan Medis'
             ],
             [
@@ -110,7 +110,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Operasional Klinik ',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Layanan Medis'
             ],
             [
@@ -119,7 +119,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Operasional Klinik ',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Layanan Medis'
             ],
             [
@@ -128,7 +128,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Junior Supervisor Apotek',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Penunjang Medis'
             ],
             [
@@ -137,7 +137,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'POH Manager Penunjang Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Penunjang Medis'
             ],
             [
@@ -146,7 +146,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Laboratorium & Non Laboratorium',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Penunjang Medis'
             ],
             [
@@ -155,7 +155,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Penunjang Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Penunjang Medis'
             ],
             [
@@ -164,7 +164,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi Penunjang Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Penunjang Medis '
             ],
             [
@@ -173,7 +173,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Officer Service Delivery',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Pusat Jakarta'
             ],
             [
@@ -182,7 +182,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Officer Operasional Klinik',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Layanan Medis'
             ],
             [
@@ -191,7 +191,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Officer Service Delivery',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Service Delivery'
             ],
             [
@@ -200,7 +200,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'PJ. Manager Human Capital Operation',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Human Capital Operation'
             ],
             [
@@ -209,7 +209,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Officer Compensation & Benefit',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Human Capital Operation'
             ],
             [
@@ -218,7 +218,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Human Capital Administration',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Human Capital Operation'
             ],
             [
@@ -227,7 +227,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff General Affair',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Partnership & Procurement'
             ],
             [
@@ -236,7 +236,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Assistant Manager Talent Acquisition and Development',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'HC Strategic & Development'
             ],
             [
@@ -245,7 +245,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'General Manager Business Support',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Business Support'
             ],
             [
@@ -254,7 +254,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Partnership',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Partnership & Procurement'
             ],
             [
@@ -263,7 +263,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'PJ. Manager Partnership & Procurement',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Partnership & Procurement'
             ],
             [
@@ -272,7 +272,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Partnership',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Partnership & Procurement'
             ],
             [
@@ -281,7 +281,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff General Affair',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Partnership & Procurement'
             ],
             [
@@ -290,7 +290,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Recruitment',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'HC Strategic & Development'
             ],
             [
@@ -299,7 +299,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Specialis Product Management',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Solution & Delivery'
             ],
             [
@@ -308,7 +308,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Officer Provider Relation',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Layanan Kesehatan'
             ],
             [
@@ -317,7 +317,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Officer Provider Relation',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Layanan Kesehatan'
             ],
             [
@@ -326,7 +326,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Account Solution',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Group Of Account Solution'
             ],
             [
@@ -335,7 +335,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Manager Layanan Kesehatan',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Layanan Kesehatan'
             ],
             [
@@ -344,7 +344,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Officer Provider Relation',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Layanan Kesehatan'
             ],
             [
@@ -353,7 +353,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Claim Administration',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Layanan Kesehatan'
             ],
             [
@@ -362,7 +362,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Claim Administration',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Layanan Kesehatan'
             ],
             [
@@ -371,7 +371,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Claim Administration',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Layanan Kesehatan'
             ],
             [
@@ -380,7 +380,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Claim Management',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Layanan Kesehatan'
             ],
             [
@@ -389,7 +389,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Claim Management',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Layanan Kesehatan'
             ],
             [
@@ -398,7 +398,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Account Solution',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Group Of Account Solution'
             ],
             [
@@ -407,7 +407,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Officer Business Solution',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Solution & Delivery'
             ],
             [
@@ -416,7 +416,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Officer Service Delivery',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Solution & Delivery'
             ],
             [
@@ -425,7 +425,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'PJ Deputy General Manager Captive Management & Delivery',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Captive Management & Delivery'
             ],
             [
@@ -434,7 +434,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Officer Service Delivery',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Solution & Delivery'
             ],
             [
@@ -443,7 +443,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Officer Service Delivery',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Solution & Delivery'
             ],
             [
@@ -452,7 +452,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Service Delivery',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Solution & Delivery'
             ],
             [
@@ -461,7 +461,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Service Delivery',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Solution & Delivery'
             ],
             [
@@ -470,7 +470,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Service Delivery',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Solution & Delivery'
             ],
             [
@@ -479,7 +479,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Service Delivery',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Solution & Delivery'
             ],
             [
@@ -488,7 +488,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff IT & Digital Services',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'IT & Digital Service'
             ],
             [
@@ -497,7 +497,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'General Manager Corporate Office & Digital',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Corporate Office & Digital'
             ],
             [
@@ -506,7 +506,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Manager Corporate Planning',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Corporate Planning'
             ],
             [
@@ -515,7 +515,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Business Planning',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Corporate Planning'
             ],
             [
@@ -524,7 +524,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Corporate Secretary & Communication',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Corporate Secretary & Communication'
             ],
             [
@@ -533,7 +533,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'PJ. Manager Corporate Secretary & Communication',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Corporate Secretary & Communication'
             ],
             [
@@ -542,7 +542,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'IT Development Officer',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'IT & Digital Service'
             ],
             [
@@ -551,7 +551,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Manager IT & Digital Service',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'IT & Digital Service'
             ],
             [
@@ -560,7 +560,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Specialist IT Development',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'IT & Digital Service'
             ],
             [
@@ -569,7 +569,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff IT Service',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'IT & Digital Service'
             ],
             [
@@ -578,7 +578,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff IT Service',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'IT & Digital Service'
             ],
             [
@@ -587,7 +587,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'AM National',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Corporate Planning'
             ],
             [
@@ -596,7 +596,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Officer IT Development',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'IT & Digital Service'
             ],
             [
@@ -605,7 +605,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi Support',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Corporate Secretary & Communication'
             ],
             [
@@ -614,7 +614,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Assistant Manager Legal & Regulatory',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Legal & Compliance'
             ],
             [
@@ -623,7 +623,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Legal & Comliance',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Legal & Compliance'
             ],
             [
@@ -632,7 +632,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Supervisor Accreditation',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Legal & Compliance'
             ],
             [
@@ -641,7 +641,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Corporate Secretary & Communication',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Corporate Secretary & Communication'
             ],
             [
@@ -650,7 +650,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff IT & Digital Services',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Pusat Jakarta'
             ],
             [
@@ -659,7 +659,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Accounting',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Accounting & Budgeting'
             ],
             [
@@ -668,7 +668,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Accounting',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Accounting & Budgeting'
             ],
             [
@@ -677,7 +677,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Officer Billing & Payment',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Billing, Collection & Payment'
             ],
             [
@@ -686,7 +686,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Billing & Payment',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Billing, Collection & Payment'
             ],
             [
@@ -695,7 +695,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Billing & Payment',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Billing, Collection & Payment'
             ],
             [
@@ -704,7 +704,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Billing & Payment',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Billing, Collection & Payment'
             ],
             [
@@ -713,7 +713,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'General Manager Finance ',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Finance'
             ],
             [
@@ -722,7 +722,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Manager Accounting & Budgeting ',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Accounting & Budgeting'
             ],
             [
@@ -731,7 +731,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Officer Tax',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Treasury & Tax'
             ],
             [
@@ -740,7 +740,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Officer Tax',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Treasury & Tax'
             ],
             [
@@ -749,7 +749,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Accounting',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Accounting & Budgeting'
             ],
             [
@@ -758,7 +758,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Assistant Manager Treasury ',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Treasury & Tax'
             ],
             [
@@ -767,7 +767,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Treasury',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Treasury & Tax'
             ],
             [
@@ -776,7 +776,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Treasury',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Treasury & Tax'
             ],
             [
@@ -785,7 +785,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'HC Strategic & Development Manager',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Pusat Jakarta'
             ],
             [
@@ -794,7 +794,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Spesialis Kedokteran dan Olahraga',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Pusat Jakarta'
             ],
             [
@@ -803,7 +803,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Manager Keperawatan',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Pusat Jakarta'
             ],
             [
@@ -812,7 +812,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'AM National',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Marketing & Sales'
             ],
             [
@@ -821,7 +821,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'AM National',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Group Of National AM'
             ],
             [
@@ -830,7 +830,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'AM National',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Group Of National AM'
             ],
             [
@@ -839,7 +839,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Officer Account Management',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Group Of National AM'
             ],
             [
@@ -848,7 +848,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'AM National',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Group of National AM'
             ],
             [
@@ -857,7 +857,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Marketing  Communication',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Marketing & Sales Support'
             ],
             [
@@ -866,7 +866,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Marketing Communication',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Marketing & Sales Support'
             ],
             [
@@ -875,7 +875,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Sales & Marketing Support',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Marketing & Sales Support'
             ],
             [
@@ -884,7 +884,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Senior Advisor',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Senior Advisor'
             ],
             [
@@ -893,7 +893,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Apoteker Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 19'
             ],
             [
@@ -902,7 +902,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 19'
             ],
             [
@@ -911,7 +911,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi Apotek',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 19'
             ],
             [
@@ -920,7 +920,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Apoteker Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 21'
             ],
             [
@@ -929,7 +929,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 21'
             ],
             [
@@ -938,7 +938,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 21'
             ],
             [
@@ -947,7 +947,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Apoteker Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telkomedika Graha Merah Putih'
             ],
             [
@@ -956,7 +956,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telkomedika Graha Merah Putih'
             ],
             [
@@ -965,7 +965,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telkomedika Graha Merah Putih'
             ],
             [
@@ -974,7 +974,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi Apotek',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telkomedika Graha Merah Putih'
             ],
             [
@@ -983,7 +983,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Apoteker Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telkomedika Percetakan Negara'
             ],
             [
@@ -992,7 +992,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Apoteker Pendamping',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telkomedika Percetakan Negara'
             ],
             [
@@ -1001,7 +1001,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telkomedika Percetakan Negara'
             ],
             [
@@ -1010,7 +1010,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telkomedika Percetakan Negara'
             ],
             [
@@ -1019,7 +1019,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi Apotek',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telkomedika Percetakan Negara'
             ],
             [
@@ -1028,7 +1028,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telkomedika Percetakan Negara'
             ],
             [
@@ -1037,7 +1037,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Apoteker Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telkomedika Slipi'
             ],
             [
@@ -1046,7 +1046,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telkomedika Slipi'
             ],
             [
@@ -1055,7 +1055,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Homecare',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Homecare TelkoMedika'
             ],
             [
@@ -1064,7 +1064,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Homecare',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Homecare TelkoMedika'
             ],
             [
@@ -1073,7 +1073,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Homecare',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Homecare TelkoMedika'
             ],
             [
@@ -1082,7 +1082,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Homecare',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Homecare TelkoMedika'
             ],
             [
@@ -1091,7 +1091,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Regional Manager Jakarta II',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional Jakarta'
             ],
             [
@@ -1100,7 +1100,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Ahli Gizi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional Jakarta'
             ],
             [
@@ -1109,7 +1109,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'AM Regional',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional Jakarta'
             ],
             [
@@ -1118,7 +1118,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Junior Supervisor Finance & General Affair',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional Jakarta'
             ],
             [
@@ -1127,7 +1127,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Sraff Finance & Support',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional Jakarta'
             ],
             [
@@ -1136,7 +1136,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Finance & Support',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional Jakarta'
             ],
             [
@@ -1145,7 +1145,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Finance & Support',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional Jakarta'
             ],
             [
@@ -1154,7 +1154,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Logistik & Support',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional Jakarta'
             ],
             [
@@ -1163,7 +1163,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Regional Manager Jakarta I',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional Jakarta'
             ],
             [
@@ -1172,7 +1172,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Sales Referral',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Pratama Telkomedika BSD'
             ],
             [
@@ -1181,7 +1181,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Pratama Telkomedika BSD'
             ],
             [
@@ -1190,7 +1190,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Koordinator Unit Bisnis ',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Pratama Telkomedika BSD'
             ],
             [
@@ -1199,7 +1199,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Pratama TelkoMedika BSD'
             ],
             [
@@ -1208,7 +1208,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Apoteker Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Pratama Telkomedika BSD'
             ],
             [
@@ -1217,7 +1217,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Sigma'
             ],
             [
@@ -1226,7 +1226,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Sigma'
             ],
             [
@@ -1235,7 +1235,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Spesialis Dalam',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Telkomedika Health Center'
             ],
             [
@@ -1244,7 +1244,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Analis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Percetakan Negara'
             ],
             [
@@ -1253,7 +1253,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Analis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Percetakan Negara'
             ],
             [
@@ -1262,7 +1262,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Analis Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Percetakan Negara'
             ],
             [
@@ -1271,7 +1271,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Assistant Koordinator Laboratorium',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Percetakan Negara'
             ],
             [
@@ -1280,7 +1280,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Bidan',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Percetakan Negara'
             ],
             [
@@ -1289,7 +1289,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Percetakan Negara'
             ],
             [
@@ -1298,7 +1298,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Percetakan Negara'
             ],
             [
@@ -1307,7 +1307,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Koordinator Unit Bisnis ',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Percetakan Negara'
             ],
             [
@@ -1316,7 +1316,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Percetakan Negara'
             ],
             [
@@ -1325,7 +1325,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Percetakan Negara'
             ],
             [
@@ -1334,7 +1334,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Radiografer',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Percetakan Negara'
             ],
             [
@@ -1343,7 +1343,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Spesialis Patologi Klinik',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Percetakan Negara'
             ],
             [
@@ -1352,7 +1352,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Spesialis Radiologi ',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Percetakan Negara'
             ],
             [
@@ -1361,7 +1361,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Spesialis Penyakit Dalam',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Percetakan Negara'
             ],
             [
@@ -1370,7 +1370,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi Klinik',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Percetakan Negara'
             ],
             [
@@ -1379,7 +1379,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Percetakan Negara'
             ],
             [
@@ -1388,7 +1388,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Koordinator MCU',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Percetakan Negara'
             ],
             [
@@ -1397,7 +1397,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama THC Telkom Landmark Tower'
             ],
             [
@@ -1406,7 +1406,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Ahli Gizi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama THC Telkom Landmark Tower'
             ],
             [
@@ -1415,7 +1415,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Ahli Gizi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama THC Telkom Landmark Tower'
             ],
             [
@@ -1424,7 +1424,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Analis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama THC Telkom Landmark Tower'
             ],
             [
@@ -1433,7 +1433,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Apoteker Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama THC Telkom Landmark Tower'
             ],
             [
@@ -1442,7 +1442,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama THC Telkom Landmark Tower'
             ],
             [
@@ -1451,7 +1451,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama THC Telkom Landmark Tower'
             ],
             [
@@ -1460,7 +1460,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama THC Telkom Landmark Tower'
             ],
             [
@@ -1469,7 +1469,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat ',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama THC Telkom Landmark Tower'
             ],
             [
@@ -1478,7 +1478,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama THC Telkom Landmark Tower'
             ],
             [
@@ -1487,7 +1487,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Radiografer',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama THC Telkom Landmark Tower'
             ],
             [
@@ -1496,7 +1496,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama THC Telkom Landmark Tower'
             ],
             [
@@ -1505,7 +1505,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama THC Telkom Landmark Tower'
             ],
             [
@@ -1514,7 +1514,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Ahli Gizi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama THC Telkom Landmark Tower'
             ],
             [
@@ -1523,7 +1523,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Spesialis Gizi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama THC Telkom Landmark Tower'
             ],
             [
@@ -1532,7 +1532,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan Infomedia'
             ],
             [
@@ -1541,7 +1541,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis LRT Cawang',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan LRT'
             ],
             [
@@ -1550,7 +1550,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis LRT Cawang',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan LRT'
             ],
             [
@@ -1559,7 +1559,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis LRT Cawang',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan LRT'
             ],
             [
@@ -1568,7 +1568,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis LRT Cawang',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan LRT'
             ],
             [
@@ -1577,7 +1577,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis LRT Dukuh Atas',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan LRT'
             ],
             [
@@ -1586,7 +1586,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis LRT Dukuh Atas',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan LRT'
             ],
             [
@@ -1595,7 +1595,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis LRT Dukuh Atas',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan LRT'
             ],
             [
@@ -1604,7 +1604,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis LRT Dukuh Atas ',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan LRT'
             ],
             [
@@ -1613,7 +1613,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis LRT Harja Mukti',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan LRT'
             ],
             [
@@ -1622,7 +1622,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis LRT Harja Mukti',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan LRT'
             ],
             [
@@ -1631,7 +1631,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis LRT Jati Mulya',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan LRT'
             ],
             [
@@ -1640,7 +1640,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis LRT Jati Mulya',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan LRT'
             ],
             [
@@ -1649,7 +1649,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis LRT Cawang',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan LRT'
             ],
             [
@@ -1658,7 +1658,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis LRT Kantor Depo Bekasi (OCC)',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan LRT'
             ],
             [
@@ -1667,7 +1667,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis LRT Kantor Depo Bekasi (OCC)',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan LRT'
             ],
             [
@@ -1676,7 +1676,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis LRT Kantor Depo Bekasi (OCC)',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan LRT'
             ],
             [
@@ -1685,7 +1685,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis LRT Jati Mulya',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan LRT'
             ],
             [
@@ -1694,7 +1694,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis LRT Harjamukti',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan LRT'
             ],
             [
@@ -1703,7 +1703,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis LRT Harjamukti',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan LRT'
             ],
             [
@@ -1712,7 +1712,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis LRT Kantor Depo Bekasi (OCC)',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan LRT'
             ],
             [
@@ -1721,7 +1721,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis LRT Jati Mulya',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan LRT'
             ],
             [
@@ -1730,7 +1730,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis LRT Dukuh Atas ',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan LRT'
             ],
             [
@@ -1739,7 +1739,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis LRT Dukuh Atas ',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan LRT'
             ],
             [
@@ -1748,7 +1748,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis LRT Cawang',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan LRT'
             ],
             [
@@ -1757,7 +1757,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis LRT Harjamukti',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan LRT'
             ],
             [
@@ -1766,7 +1766,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Apoteker LRT Kantor Depo Bekasi (OCC)',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan LRT'
             ],
             [
@@ -1775,7 +1775,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis LRT Jati Mulya',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan LRT'
             ],
             [
@@ -1784,7 +1784,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan PNRI'
             ],
             [
@@ -1793,7 +1793,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan Telkomsel Area BSD'
             ],
             [
@@ -1802,7 +1802,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan Telkomsel Area TSO'
             ],
             [
@@ -1811,7 +1811,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -1820,7 +1820,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -1829,7 +1829,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'OHIH Specialist',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -1838,7 +1838,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -1847,7 +1847,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -1856,7 +1856,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -1865,7 +1865,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -1874,7 +1874,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -1883,7 +1883,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -1892,7 +1892,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -1901,7 +1901,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -1910,7 +1910,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -1919,7 +1919,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -1928,7 +1928,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -1937,7 +1937,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -1946,7 +1946,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -1955,7 +1955,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -1964,7 +1964,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -1973,7 +1973,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -1982,7 +1982,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -1991,7 +1991,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -2000,7 +2000,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -2009,7 +2009,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -2018,7 +2018,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -2027,7 +2027,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -2036,7 +2036,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -2045,7 +2045,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -2054,7 +2054,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -2063,7 +2063,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -2072,7 +2072,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -2081,7 +2081,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -2090,7 +2090,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -2099,7 +2099,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -2108,7 +2108,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -2117,7 +2117,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -2126,7 +2126,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -2135,7 +2135,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -2144,7 +2144,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -2153,7 +2153,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -2162,7 +2162,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -2171,7 +2171,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -2180,7 +2180,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -2189,7 +2189,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -2198,7 +2198,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -2207,7 +2207,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -2216,7 +2216,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -2225,7 +2225,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -2234,7 +2234,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -2243,7 +2243,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Driver Ambulance',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan MRT'
             ],
             [
@@ -2252,7 +2252,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan Telkom University Jakarta'
             ],
             [
@@ -2261,7 +2261,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Tenaga Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Pelayanan Kesehatan Telkom University Jakarta'
             ],
             [
@@ -2270,7 +2270,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Gigi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'THC Bogor'
             ],
             [
@@ -2279,7 +2279,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Koordinator Unit Bisnis ',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'THC Bogor'
             ],
             [
@@ -2288,7 +2288,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Koordinator Unit Bisnis ',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'THC Bogor'
             ],
             [
@@ -2297,7 +2297,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Koordinator Unit Bisnis ',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'THC Depok'
             ],
             [
@@ -2306,7 +2306,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'THC Depok'
             ],
             [
@@ -2315,7 +2315,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi ',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'THC Depok'
             ],
             [
@@ -2324,7 +2324,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi Klinik',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'THC Depok'
             ],
             [
@@ -2333,7 +2333,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Spesialis Gizi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'THC Telkom Landmark Tower'
             ],
             [
@@ -2342,7 +2342,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Spesialis Gizi ',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'THC Telkom Landmark Tower'
             ],
             [
@@ -2351,7 +2351,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Spesialis Radiologi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'THC Telkom Landmark Tower'
             ],
             [
@@ -2360,7 +2360,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Provider Relation',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Pusat Jakarta'
             ],
             [
@@ -2369,7 +2369,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Apoteker Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 2'
             ],
             [
@@ -2378,7 +2378,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 2'
             ],
             [
@@ -2387,7 +2387,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 2'
             ],
             [
@@ -2396,7 +2396,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 2'
             ],
             [
@@ -2405,7 +2405,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi Apotek',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 2'
             ],
             [
@@ -2414,7 +2414,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi Apotek',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 2'
             ],
             [
@@ -2423,7 +2423,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Apoteker Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 3'
             ],
             [
@@ -2432,7 +2432,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 3'
             ],
             [
@@ -2441,7 +2441,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 3'
             ],
             [
@@ -2450,7 +2450,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 3'
             ],
             [
@@ -2459,7 +2459,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Apoteker Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telkomedika'
             ],
             [
@@ -2468,7 +2468,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Apoteker Pendamping',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telkomedika'
             ],
             [
@@ -2477,7 +2477,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Apoteker Pendamping',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telkomedika'
             ],
             [
@@ -2486,7 +2486,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telkomedika'
             ],
             [
@@ -2495,7 +2495,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telkomedika'
             ],
             [
@@ -2504,7 +2504,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telkomedika'
             ],
             [
@@ -2513,7 +2513,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telkomedika'
             ],
             [
@@ -2522,7 +2522,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telkomedika'
             ],
             [
@@ -2531,7 +2531,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telkomedika'
             ],
             [
@@ -2540,7 +2540,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telkomedika'
             ],
             [
@@ -2549,7 +2549,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telkomedika'
             ],
             [
@@ -2558,7 +2558,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telkomedika'
             ],
             [
@@ -2567,7 +2567,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi Apotek',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telkomedika'
             ],
             [
@@ -2576,7 +2576,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Koordinator Unit Bisnis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telkomedika'
             ],
             [
@@ -2585,7 +2585,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Apoteker Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'IHC Telkom University'
             ],
             [
@@ -2594,7 +2594,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'IHC Telkom University'
             ],
             [
@@ -2603,7 +2603,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'IHC Telkom University'
             ],
             [
@@ -2612,7 +2612,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Koordinator Unit Bisnis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'IHC Telkom University'
             ],
             [
@@ -2621,7 +2621,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'IHC Telkom University'
             ],
             [
@@ -2630,7 +2630,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi Klinik',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'IHC Telkom University'
             ],
             [
@@ -2639,7 +2639,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Penanggung Jawab ',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'IHC Telkom University'
             ],
             [
@@ -2648,7 +2648,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'IHC UNIKOM'
             ],
             [
@@ -2657,7 +2657,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Deputy Regional Manager ',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional Jawa Barat'
             ],
             [
@@ -2666,7 +2666,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'AM Regional',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional Jawa Barat'
             ],
             [
@@ -2675,7 +2675,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Finance & General Affair',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional Jawa Barat'
             ],
             [
@@ -2684,7 +2684,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Finance & General Affair',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional Jawa Barat'
             ],
             [
@@ -2693,7 +2693,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Finance & General Affair',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional Jawa Barat'
             ],
             [
@@ -2702,7 +2702,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Finance & General Affair',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional Jawa Barat'
             ],
             [
@@ -2711,7 +2711,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff General Affair',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional Jawa Barat'
             ],
             [
@@ -2720,7 +2720,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Sales',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional Jawa Barat'
             ],
             [
@@ -2729,7 +2729,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Fisioterapi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telemedika Health Center'
             ],
             [
@@ -2738,7 +2738,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Fisioterapi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telemedika Health Center'
             ],
             [
@@ -2747,7 +2747,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Fisioterapi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telemedika Health Center'
             ],
             [
@@ -2756,7 +2756,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Fisioterapi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telemedika Health Center'
             ],
             [
@@ -2765,7 +2765,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Fisioterapi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telemedika Health Center'
             ],
             [
@@ -2774,7 +2774,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telemedika Health Center'
             ],
             [
@@ -2783,7 +2783,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telemedika Health Center'
             ],
             [
@@ -2792,7 +2792,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telemedika Health Center'
             ],
             [
@@ -2801,7 +2801,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telemedika Health Center'
             ],
             [
@@ -2810,7 +2810,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Analis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Sentot'
             ],
             [
@@ -2819,7 +2819,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Analis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Sentot'
             ],
             [
@@ -2828,7 +2828,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Analis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Sentot'
             ],
             [
@@ -2837,7 +2837,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Analis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Sentot'
             ],
             [
@@ -2846,7 +2846,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Analis Radiologi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Sentot'
             ],
             [
@@ -2855,7 +2855,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Analis Radiologi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Sentot'
             ],
             [
@@ -2864,7 +2864,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Bidan',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Sentot'
             ],
             [
@@ -2873,7 +2873,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Sentot'
             ],
             [
@@ -2882,7 +2882,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Sentot'
             ],
             [
@@ -2891,7 +2891,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Penanggung Jawab Administrasi dan Layanan Non Medis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Sentot'
             ],
             [
@@ -2900,7 +2900,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Koordinator Unit Bisnis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Sentot'
             ],
             [
@@ -2909,7 +2909,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Gigi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Sentot'
             ],
             [
@@ -2918,7 +2918,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Gigi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Sentot'
             ],
             [
@@ -2927,7 +2927,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Sentot'
             ],
             [
@@ -2936,7 +2936,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Sentot'
             ],
             [
@@ -2945,7 +2945,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi Laboratorium',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Sentot'
             ],
             [
@@ -2954,7 +2954,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi THC Sentot Alibasyah',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Sentot'
             ],
             [
@@ -2963,7 +2963,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi THC Sentot Alibasyah',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Sentot'
             ],
             [
@@ -2972,7 +2972,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi THC Sentot Alibasyah',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Sentot'
             ],
             [
@@ -2981,7 +2981,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'THC Buah Batu'
             ],
             [
@@ -2990,7 +2990,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 10'
             ],
             [
@@ -2999,7 +2999,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 10'
             ],
             [
@@ -3008,7 +3008,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi Apotek',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 10'
             ],
             [
@@ -3017,7 +3017,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Koordinator Unit Bisnis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 10'
             ],
             [
@@ -3026,7 +3026,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 22'
             ],
             [
@@ -3035,7 +3035,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 22'
             ],
             [
@@ -3044,7 +3044,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Analis Laboratorium',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'e-Labs Semarang'
             ],
             [
@@ -3053,7 +3053,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Analis Radiologi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'e-Labs Semarang'
             ],
             [
@@ -3062,7 +3062,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'e-Labs Semarang'
             ],
             [
@@ -3071,7 +3071,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi Laboratorium',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'e-Labs Semarang'
             ],
             [
@@ -3080,7 +3080,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'IHC P3K Hotel Royal Ambarukmo'
             ],
             [
@@ -3089,7 +3089,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'IHC PT Santosa Jaya Abadi'
             ],
             [
@@ -3098,7 +3098,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'IHC PT Santosa Jaya Abadi'
             ],
             [
@@ -3107,7 +3107,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'IHC PT Santosa Jaya Abadi'
             ],
             [
@@ -3116,7 +3116,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'IHC PT Santosa Jaya Abadi'
             ],
             [
@@ -3125,7 +3125,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'IHC Purwokerto'
             ],
             [
@@ -3134,7 +3134,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'IHC Purwokerto'
             ],
             [
@@ -3143,7 +3143,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'KAI Mediska Kroya'
             ],
             [
@@ -3152,7 +3152,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Gigi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'KAI Mediska Kutoarjo'
             ],
             [
@@ -3161,7 +3161,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'KAI Mediska Kutoarjo'
             ],
             [
@@ -3170,7 +3170,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Regional Manager',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional Jawa Tengah & DIY'
             ],
             [
@@ -3179,7 +3179,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi Regional',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional Jawa Tengah & DIY'
             ],
             [
@@ -3188,7 +3188,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Finance & Support',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional Jawa Tengah & DIY'
             ],
             [
@@ -3197,7 +3197,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Logistic',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional Jawa Tengah & DIY'
             ],
             [
@@ -3206,7 +3206,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Sales',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional Jawa Tengah & DIY'
             ],
             [
@@ -3215,7 +3215,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Analis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Pratama Telkomedika Yogyakarta'
             ],
             [
@@ -3224,7 +3224,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Bidan',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Pratama Telkomedika Yogyakarta'
             ],
             [
@@ -3233,7 +3233,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Koordinator Unit Bisnis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Pratama Telkomedika Yogyakarta'
             ],
             [
@@ -3242,7 +3242,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Pratama Telkomedika Yogyakarta'
             ],
             [
@@ -3251,7 +3251,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Pratama Telkomedika Yogyakarta'
             ],
             [
@@ -3260,7 +3260,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Quality Qontrol',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Pratama Telkomedika Yogyakarta'
             ],
             [
@@ -3269,7 +3269,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi Klinik',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Pratama Telkomedika Yogyakarta'
             ],
             [
@@ -3278,7 +3278,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Health Center Semarang'
             ],
             [
@@ -3287,7 +3287,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Health Center Semarang'
             ],
             [
@@ -3296,7 +3296,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Health Center Semarang'
             ],
             [
@@ -3305,7 +3305,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Fisioterapi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Health Center Semarang'
             ],
             [
@@ -3314,7 +3314,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Health Center Semarang'
             ],
             [
@@ -3323,7 +3323,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Semarang'
             ],
             [
@@ -3332,7 +3332,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Spesialis THT',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Semarang'
             ],
             [
@@ -3341,7 +3341,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'THC Semarang'
             ],
             [
@@ -3350,7 +3350,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Apoteker Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 17'
             ],
             [
@@ -3359,7 +3359,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 17'
             ],
             [
@@ -3368,7 +3368,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Apoteker Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 18'
             ],
             [
@@ -3377,7 +3377,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 18'
             ],
             [
@@ -3386,7 +3386,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Apoteker Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 4'
             ],
             [
@@ -3395,7 +3395,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 4'
             ],
             [
@@ -3404,7 +3404,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 4'
             ],
             [
@@ -3413,7 +3413,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 4'
             ],
             [
@@ -3422,7 +3422,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 4'
             ],
             [
@@ -3431,7 +3431,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi Apotek',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 4'
             ],
             [
@@ -3440,7 +3440,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Apoteker Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma Kembang Kuning'
             ],
             [
@@ -3449,7 +3449,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Logistic & Support',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma Kembang Kuning'
             ],
             [
@@ -3458,7 +3458,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Apoteker Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telkomedika Denpasar'
             ],
             [
@@ -3467,7 +3467,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telkomedika Denpasar'
             ],
             [
@@ -3476,7 +3476,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi Apotek',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telkomedika Denpasar'
             ],
             [
@@ -3485,7 +3485,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Regional Manager',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional Jawa Timur & Bali'
             ],
             [
@@ -3494,7 +3494,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'AM Regional',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional Jawa Timur & Bali'
             ],
             [
@@ -3503,7 +3503,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Finance & General Affair',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional Jawa Timur & Bali'
             ],
             [
@@ -3512,7 +3512,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Supervisor Finance & General Affair',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional Jawa Timur & Bali'
             ],
             [
@@ -3521,7 +3521,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Gigi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Pratama THC Surabaya'
             ],
             [
@@ -3530,7 +3530,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Rawat Jalan Telemedika Health Center Malang'
             ],
             [
@@ -3539,7 +3539,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Penanggung Jawab Klinik',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Surabaya'
             ],
             [
@@ -3548,7 +3548,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Surabaya'
             ],
             [
@@ -3557,7 +3557,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Koordinator Unit Bisnis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Surabaya'
             ],
             [
@@ -3566,7 +3566,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Analis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Surabaya'
             ],
             [
@@ -3575,7 +3575,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Analis Kesehatan',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Surabaya'
             ],
             [
@@ -3584,7 +3584,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Surabaya'
             ],
             [
@@ -3593,7 +3593,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Radiografer',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Surabaya'
             ],
             [
@@ -3602,7 +3602,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Surabaya'
             ],
             [
@@ -3611,7 +3611,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Surabaya'
             ],
             [
@@ -3620,7 +3620,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Spesialis Radiologi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Surabaya'
             ],
             [
@@ -3629,7 +3629,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Radiografer',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Surabaya'
             ],
             [
@@ -3638,7 +3638,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Front Office',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Surabaya'
             ],
             [
@@ -3647,7 +3647,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Surabaya'
             ],
             [
@@ -3656,7 +3656,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Surabaya'
             ],
             [
@@ -3665,7 +3665,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan Telkomsel Area Surabaya'
             ],
             [
@@ -3674,7 +3674,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'THC Madiun'
             ],
             [
@@ -3683,7 +3683,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Koordinator Unit Bisnis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'THC Madiun'
             ],
             [
@@ -3692,7 +3692,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'THC Madiun'
             ],
             [
@@ -3701,7 +3701,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Koordinator Unit Bisnis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'THC Malang'
             ],
             [
@@ -3710,7 +3710,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'THC Malang'
             ],
             [
@@ -3719,7 +3719,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 24'
             ],
             [
@@ -3728,7 +3728,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'POH Regional Manager',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 24'
             ],
             [
@@ -3737,7 +3737,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Finance',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional Kalimantan'
             ],
             [
@@ -3746,7 +3746,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'AM Regional',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional Kalimantan'
             ],
             [
@@ -3755,7 +3755,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Analis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Pratama Telkomedika Banjarmasin'
             ],
             [
@@ -3764,7 +3764,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Koordinator Unit Bisnis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Pratama TelkoMedika Banjarmasin'
             ],
             [
@@ -3773,7 +3773,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Pratama TelkoMedika Banjarmasin'
             ],
             [
@@ -3782,7 +3782,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Pratama TelkoMedika Banjarmasin'
             ],
             [
@@ -3791,7 +3791,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Pratama TelkoMedika Banjarmasin'
             ],
             [
@@ -3800,7 +3800,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Pratama Telkomedika Banjarmasin'
             ],
             [
@@ -3809,7 +3809,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Pratama TelkoMedika Banjarmasin'
             ],
             [
@@ -3818,7 +3818,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'PT. Nippon Indosari Corpindo,tbk'
             ],
             [
@@ -3827,7 +3827,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma'
             ],
             [
@@ -3836,7 +3836,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi Apotek',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma'
             ],
             [
@@ -3845,7 +3845,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Apoteker Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma'
             ],
             [
@@ -3854,7 +3854,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Apoteker Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telkomedika Manado'
             ],
             [
@@ -3863,7 +3863,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telkomedika Manado'
             ],
             [
@@ -3872,7 +3872,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telkomedika Manado'
             ],
             [
@@ -3881,7 +3881,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Analis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'e-Labs Makassar'
             ],
             [
@@ -3890,7 +3890,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Analis Radiologi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'e-Labs Makassar'
             ],
             [
@@ -3899,7 +3899,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi Laboratorium',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'e-Labs Makassar'
             ],
             [
@@ -3908,7 +3908,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Analis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'e-Labs Makassar'
             ],
             [
@@ -3917,7 +3917,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Regional Manager',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional KTI'
             ],
             [
@@ -3926,7 +3926,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Junior Supervisor Finance & General Affair',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional KTI'
             ],
             [
@@ -3935,7 +3935,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'AM Regional',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional KTI'
             ],
             [
@@ -3944,7 +3944,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Koordinator Unit Bisnis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional KTI'
             ],
             [
@@ -3953,7 +3953,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Logistik',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional KTI'
             ],
             [
@@ -3962,7 +3962,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Pratama Telkomedika Manado'
             ],
             [
@@ -3971,7 +3971,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi Klinik',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Pratama Telkomedika Manado'
             ],
             [
@@ -3980,7 +3980,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Telkomedika Health Center Manado'
             ],
             [
@@ -3989,7 +3989,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Penanggung Jawab Radiologi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Telkomedika Makassar'
             ],
             [
@@ -3998,7 +3998,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Laboratorium Telkomedika Makassar'
             ],
             [
@@ -4007,7 +4007,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan Telkomsel Area Makassar'
             ],
             [
@@ -4016,7 +4016,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Apoteker Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'THC Makassar'
             ],
             [
@@ -4025,7 +4025,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'THC Makassar'
             ],
             [
@@ -4034,7 +4034,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'THC Makassar'
             ],
             [
@@ -4043,7 +4043,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'THC Makassar'
             ],
             [
@@ -4052,7 +4052,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'THC Makassar'
             ],
             [
@@ -4061,7 +4061,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi Klinik',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'THC Makassar'
             ],
             [
@@ -4070,7 +4070,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Apoteker Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 13'
             ],
             [
@@ -4079,7 +4079,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 13'
             ],
             [
@@ -4088,7 +4088,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Apoteker Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 16'
             ],
             [
@@ -4097,7 +4097,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 16'
             ],
             [
@@ -4106,7 +4106,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi Apotek',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 16'
             ],
             [
@@ -4115,7 +4115,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Apoteker Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 9'
             ],
             [
@@ -4124,7 +4124,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Apoteker Pendamping',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 9'
             ],
             [
@@ -4133,7 +4133,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Asisten Apoteker',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 9'
             ],
             [
@@ -4142,7 +4142,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Administrasi Apotek',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Apotek Telemedika Farma 9'
             ],
             [
@@ -4151,7 +4151,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Regional Manager ',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional Sumatera'
             ],
             [
@@ -4160,7 +4160,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Account Management',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional Sumatera'
             ],
             [
@@ -4169,7 +4169,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Finance & General Affair',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional Sumatera'
             ],
             [
@@ -4178,7 +4178,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff Finance & General Affair',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional Sumatera'
             ],
             [
@@ -4187,7 +4187,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Staff General Support',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Kantor Regional Sumatera'
             ],
             [
@@ -4196,7 +4196,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Analis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Pratama Telkomedika Lampung'
             ],
             [
@@ -4205,7 +4205,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Apoteker Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Pratama Telkomedika Lampung'
             ],
             [
@@ -4214,7 +4214,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Pratama Telkomedika Lampung'
             ],
             [
@@ -4223,7 +4223,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Pratama Telkomedika Lampung'
             ],
             [
@@ -4232,7 +4232,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Koordinator Unit Bisnis ',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Pratama Telkomedika Lampung'
             ],
             [
@@ -4241,7 +4241,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Telkomedika Health Center Lampung'
             ],
             [
@@ -4250,7 +4250,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Radiografer (PPR)',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Rawat Jalan Telkomedika Medan'
             ],
             [
@@ -4259,7 +4259,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Rawat Jalan Telkomedika Medan'
             ],
             [
@@ -4268,7 +4268,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Rawat Jalan Telkomedika Medan'
             ],
             [
@@ -4277,7 +4277,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Spesialis Penyakit Dalam',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Rawat Jalan Telkomedika Medan'
             ],
             [
@@ -4286,7 +4286,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Analis',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Rawat Jalan Telkomedika Medan'
             ],
             [
@@ -4295,7 +4295,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Analis Penanggung Jawab',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Medan'
             ],
             [
@@ -4304,7 +4304,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Analis Radiologi',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Medan'
             ],
             [
@@ -4313,7 +4313,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Medan'
             ],
             [
@@ -4322,7 +4322,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Klinik Utama Telkomedika Medan'
             ],
             [
@@ -4331,7 +4331,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Dokter Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'Pos Kesehatan Telkomsel Area Medan'
             ],
             [
@@ -4340,7 +4340,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'PT. Nippon Indosari Corpindo'
             ],
             [
@@ -4349,7 +4349,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Bidan',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'THC Medan'
             ],
             [
@@ -4358,7 +4358,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Koordinator Unit Bisnis ',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'THC Medan'
             ],
             [
@@ -4367,7 +4367,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'THC Medan'
             ],
             [
@@ -4376,7 +4376,7 @@ class UsersSeeder extends Seeder
                 'jabatan' => 'Perawat Umum',
                 'role' => 'user',
                 'upload_status' => 'n',
-                'password' => bcrypt("Telkomedika@2024#!"),
+                'password' => bcrypt("Telkomedika@2025#!"),
                 'unit_kerja' => 'THC Medan'
             ]
         ];
