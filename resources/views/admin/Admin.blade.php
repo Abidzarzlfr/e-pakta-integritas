@@ -21,9 +21,8 @@
             </div>
             <!-- Mobile Dropdown Menu -->
             <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                <li><a href="#tableUser">Table User</a></li>
-                <li><a href="#generate">Generate</a></li>
-                <li><a href="#upload">Upload</a></li>
+                <li><a href="#adduser">Add User</a></li>
+                <li><a href="#userstable">Users Table</a></li>
             </ul>
         </div>
         <img class="h-10 w-12" src="{{ asset('assets/telkomedika-logo.png') }}" alt="" />
@@ -32,9 +31,8 @@
     <div class="navbar-center hidden lg:flex">
         <!-- Desktop Menu -->
         <ul class="menu menu-horizontal px-1">
-            <li><a href="#about">About</a></li>
-            <li><a href="#generate">Generate</a></li>
-            <li><a href="#upload">Upload</a></li>
+            <li><a href="#adduser">Add Users</a></li>
+            <li><a href="#userstable">Users Table</a></li>
         </ul>
     </div>
     <div class="navbar-end">
@@ -114,7 +112,7 @@
 </div>
 
 <!-- Add User -->
-<section class="bg-gray-50 dark:bg-gray-900">
+<section id="adduser" class="bg-gray-50 dark:bg-gray-900">
     <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16">
         <div class="flex flex-col justify-center">
             <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-4xl lg:text-5xl dark:text-white">Add User</h1>
@@ -151,7 +149,7 @@
 </section>
 
 <!-- Table Users -->
-<section class="bg-white dark:bg-gray-900 z-0">
+<section id="userstable" class="bg-white dark:bg-gray-900 z-0">
     <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
         <!-- Heading Table Users -->
         <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-3xl lg:text-4xl dark:text-white">User Table</h1>
@@ -416,4 +414,11 @@
         sessionStorage.setItem("scrollPosition", window.scrollY);
     };
 </script>
+
+<!-- Optional Smooth Scrolling -->
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+</style>
 @endsection
